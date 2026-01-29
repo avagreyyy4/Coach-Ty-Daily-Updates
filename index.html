@@ -22,11 +22,13 @@
     .hero a.cta:hover { background: #6CACE4; color: #012169; }
 
     /* Widgets Section */
-    .widgets { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-    .widget { background: #fff; border: 2px solid #6CACE4; border-top: 4px solid #009EFF; border-radius: 6px; padding: 1.5rem; min-height: 250px; }
-    .widget h3 { color: #012169; font-size: 1.3rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #6CACE4; }
+    .widgets { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
+    .widget { background: #6CACE4; border-radius: 8px; padding: 1.5rem; min-height: 250px; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; text-decoration: none; color: inherit; display: block; }
+    .widget:hover { transform: scale(1.05); box-shadow: 0 8px 24px rgba(1, 33, 105, 0.3); }
+    .widget h3 { color: #012169; font-size: 1.4rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #012169; }
     .widget ul { list-style: none; }
-    .widget ul li { padding: 0.5rem 0; border-bottom: 1px solid #eee; color: #555; }
+    .widget ul li { padding: 0.5rem 0; border-bottom: 1px solid rgba(1, 33, 105, 0.15); color: #012169; }
+    .widget .view-all { display: block; margin-top: 1rem; text-align: right; color: #012169; font-weight: bold; font-size: 0.9rem; }
 
     /* Daily Updates Section */
     .updates { max-width: 800px; margin: 3rem auto; padding: 0 2rem; }
@@ -34,11 +36,6 @@
     .update-card { background: #f9f9f9; border-left: 4px solid #012169; padding: 1.25rem; margin-bottom: 1.25rem; border-radius: 4px; }
     .update-card h3 { margin-bottom: 0.25rem; color: #012169; }
     .update-card .date { font-size: 0.85rem; color: #009EFF; margin-bottom: 0.5rem; }
-
-    /* About Section */
-    .about { background: #6CACE4; color: #012169; padding: 3rem 2rem; text-align: center; }
-    .about h2 { font-size: 1.8rem; margin-bottom: 1rem; }
-    .about p { max-width: 600px; margin: 0 auto; }
 
     /* Footer */
     footer { background: #012169; color: #6CACE4; text-align: center; padding: 1.5rem; font-size: 0.9rem; }
@@ -52,7 +49,6 @@
     <nav>
       <a href="#widgets">Dashboard</a>
       <a href="#updates">Updates</a>
-      <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -67,28 +63,25 @@
   <!-- Widgets Section -->
   <section class="widgets" id="widgets">
 
-    <div class="widget">
+    <a class="widget" href="players.html">
       <h3>Players to Contact</h3>
       <ul>
         <li>Player Name - Reason for contact</li>
         <li>Player Name - Reason for contact</li>
         <li>Player Name - Reason for contact</li>
       </ul>
-    </div>
+      <span class="view-all">View All Players &rarr;</span>
+    </a>
 
-    <div class="widget">
+    <a class="widget" href="games.html">
       <h3>Games Coming Up</h3>
       <ul>
         <li>vs. Opponent - Date &amp; Time</li>
         <li>vs. Opponent - Date &amp; Time</li>
         <li>vs. Opponent - Date &amp; Time</li>
       </ul>
-    </div>
-
-    <div class="widget">
-      <h3>Widget</h3>
-      <!-- Empty for now -->
-    </div>
+      <span class="view-all">View Full Schedule &rarr;</span>
+    </a>
 
   </section>
 
@@ -107,12 +100,6 @@
       <p class="date">January 28, 2026</p>
       <p>Summary of yesterday's update goes here.</p>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="about" id="about">
-    <h2>About Coach Ty</h2>
-    <p>A brief bio or description about Coach Ty, coaching philosophy, and what visitors can expect from this site.</p>
   </section>
 
   <!-- Footer -->
