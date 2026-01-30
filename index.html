@@ -5,15 +5,127 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coach Ty - Daily Updates</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Inter:wght@400;600&display=swap');
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, Helvetica, sans-serif; background: #fff; }
 
-    h1 { color: #012169; text-align: center; font-size: 2.5rem; margin-top: 3rem; margin-bottom: 3rem; }
+    body {
+      font-family: 'Inter', Arial, sans-serif;
+      background: #fff;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
 
-    .widgets { max-width: 900px; margin: 0 auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
-    .widget { background: #6CACE4; border-radius: 8px; padding: 1.5rem; min-height: 250px; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; text-decoration: none; display: block; color: #012169; }
-    .widget:hover { transform: scale(1.05); box-shadow: 0 8px 24px rgba(1, 33, 105, 0.3); }
-    .widget h2 { font-size: 1.4rem; margin-bottom: 1rem; }
+    /* Subtle background glow */
+    body::before {
+      content: '';
+      position: fixed;
+      top: -40%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(circle, rgba(108, 172, 228, 0.15) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #012169;
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 4rem;
+      margin-bottom: 3.5rem;
+      letter-spacing: 0.15em;
+      position: relative;
+      z-index: 1;
+      text-shadow: 0 0 30px rgba(0, 158, 255, 0.2);
+    }
+
+    .widgets {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      position: relative;
+      z-index: 1;
+    }
+
+    .widget {
+      background: linear-gradient(145deg, #6CACE4, #5a9ad5);
+      border-radius: 20px;
+      padding: 2.5rem 2rem;
+      min-height: 280px;
+      cursor: pointer;
+      text-decoration: none;
+      display: flex;
+      align-items: flex-end;
+      color: #012169;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      box-shadow: 0 4px 20px rgba(1, 33, 105, 0.12);
+    }
+
+    .widget::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.15) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    .widget::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, #012169, #009EFF, #012169);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .widget:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 16px 40px rgba(1, 33, 105, 0.25), 0 0 60px rgba(108, 172, 228, 0.2);
+    }
+
+    .widget:hover::after {
+      opacity: 1;
+    }
+
+    .widget h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.3rem;
+      letter-spacing: 0.08em;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Decorative corner accents */
+    .widget .corner {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      border-color: rgba(1, 33, 105, 0.25);
+      border-style: solid;
+      transition: border-color 0.3s ease;
+    }
+
+    .widget:hover .corner { border-color: #012169; }
+
+    .corner-tl { top: 14px; left: 14px; border-width: 2px 0 0 2px; border-radius: 4px 0 0 0; }
+    .corner-tr { top: 14px; right: 14px; border-width: 2px 2px 0 0; border-radius: 0 4px 0 0; }
+    .corner-br { bottom: 14px; right: 14px; border-width: 0 2px 2px 0; border-radius: 0 0 4px 0; }
+    .corner-bl { bottom: 14px; left: 14px; border-width: 0 0 2px 2px; border-radius: 0 0 0 4px; }
   </style>
 </head>
 <body>
@@ -22,9 +134,17 @@
 
   <div class="widgets">
     <a class="widget" href="players.html">
+      <span class="corner corner-tl"></span>
+      <span class="corner corner-tr"></span>
+      <span class="corner corner-br"></span>
+      <span class="corner corner-bl"></span>
       <h2>Players to Contact</h2>
     </a>
     <a class="widget" href="games.html">
+      <span class="corner corner-tl"></span>
+      <span class="corner corner-tr"></span>
+      <span class="corner corner-br"></span>
+      <span class="corner corner-bl"></span>
       <h2>Games Coming Up</h2>
     </a>
   </div>
