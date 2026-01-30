@@ -67,35 +67,21 @@ def add_recency_bucket(
     df[f"{prefix}_distance"] = dist
     return df
 
-def sort_by_contact_and_texted(df: pd.DataFrame) -> pd.DataFrame:
+def sort_by_last_called(df: pd.DataFrame) -> pd.DataFrame:
     order = {k: i for i, k in enumerate(DISTANCE_ORDER)}
     today = pd.Timestamp.now(tz="UTC").normalize()
 
     return (
         df.assign(
-            _contact_rank=df["contact_distance"].map(order).fillna(999),
-            _texted_rank=df["texted_distance"].map(order).fillna(999),
-            _contact_days=(today - df["contact_dt"]).dt.days.fillna(9999),
-            _texted_days=(today - df["texted_dt"]).dt.days.fillna(9999),
+            _called_rank=df["called_distance"].map(order).fillna(999),
+            _called_days=(today - df["called_dt"]).dt.days.fillna(9999),
         )
         .sort_values(
-            by=[
-                "_contact_rank",
-                "_texted_rank",
-                "_contact_days",
-                "_texted_days",
-            ],
-            ascending=[True, True, False, False],
+            by=["_called_rank", "_called_days"],
+            ascending=[True, False],
             kind="stable",
         )
-        .drop(
-            columns=[
-                "_contact_rank",
-                "_texted_rank",
-                "_contact_days",
-                "_texted_days",
-            ]
-        )
+        .drop(columns=["_called_rank", "_called_days"])
     )
 
 # ================== MAIN ==================
@@ -113,6 +99,7 @@ def main():
 
     df = pd.read_csv(raw_csv, dtype=str, keep_default_na=False)
     df.columns = [c.strip() for c in df.columns]
+    print(f"[debug] columns: {list(df.columns)}")
 
     # Build Full Name from First/Last Name columns
     first_col = next((c for c in df.columns if "first" in c.lower() and "name" in c.lower()), None)
@@ -123,11 +110,17 @@ def main():
     # Filters
     df = apply_filters(df, FILTERS)
 
-    # Add recency logic
-    df = add_recency_bucket(df, "Last Contact", prefix="contact")
+    # Find the "Last Called" column
+    called_col = next((c for c in df.columns if "call" in c.lower() and "last" in c.lower()), None)
+    if called_col:
+        df = add_recency_bucket(df, called_col, prefix="called")
+    else:
+        print(f"[warn] no 'Last Called' column found, treating all as never called")
+        df["called_dt"] = pd.NaT
+        df["called_distance"] = "never"
 
     # Sort + top 5 recruits not called recently
-    df = sort_by_contact_and_texted(df)
+    df = sort_by_last_called(df)
     df_top = df.head(TOP_N).reset_index(drop=True)
 
     # Save CSV
