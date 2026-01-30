@@ -6,106 +6,28 @@
   <title>Coach Ty - Daily Updates</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Arial, Helvetica, sans-serif; line-height: 1.6; color: #333; }
+    body { font-family: Arial, Helvetica, sans-serif; background: #fff; }
 
-    /* Header / Navigation */
-    header { background: #012169; color: #fff; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
-    header h1 { font-size: 1.5rem; }
-    nav a { color: #6CACE4; text-decoration: none; margin-left: 1.5rem; }
-    nav a:hover { color: #fff; text-decoration: underline; }
+    h1 { color: #012169; text-align: center; font-size: 2.5rem; margin-top: 3rem; margin-bottom: 3rem; }
 
-    /* Hero Section */
-    .hero { background: #012169; color: #fff; text-align: center; padding: 4rem 2rem; border-top: 3px solid #009EFF; }
-    .hero h2 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    .hero p { font-size: 1.2rem; color: #6CACE4; max-width: 600px; margin: 0 auto 1.5rem; }
-    .hero a.cta { display: inline-block; background: #009EFF; color: #fff; padding: 0.75rem 1.5rem; border-radius: 4px; text-decoration: none; font-weight: bold; }
-    .hero a.cta:hover { background: #6CACE4; color: #012169; }
-
-    /* Widgets Section */
-    .widgets { max-width: 1000px; margin: 3rem auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
-    .widget { background: #6CACE4; border-radius: 8px; padding: 1.5rem; min-height: 250px; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; text-decoration: none; color: inherit; display: block; }
+    .widgets { max-width: 900px; margin: 0 auto; padding: 0 2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .widget { background: #6CACE4; border-radius: 8px; padding: 1.5rem; min-height: 250px; cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; text-decoration: none; display: block; color: #012169; }
     .widget:hover { transform: scale(1.05); box-shadow: 0 8px 24px rgba(1, 33, 105, 0.3); }
-    .widget h3 { color: #012169; font-size: 1.4rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #012169; }
-    .widget ul { list-style: none; }
-    .widget ul li { padding: 0.5rem 0; border-bottom: 1px solid rgba(1, 33, 105, 0.15); color: #012169; }
-    .widget .view-all { display: block; margin-top: 1rem; text-align: right; color: #012169; font-weight: bold; font-size: 0.9rem; }
-
-    /* Daily Updates Section */
-    .updates { max-width: 800px; margin: 3rem auto; padding: 0 2rem; }
-    .updates h2 { font-size: 1.8rem; margin-bottom: 1.5rem; border-bottom: 2px solid #009EFF; padding-bottom: 0.5rem; color: #012169; }
-    .update-card { background: #f9f9f9; border-left: 4px solid #012169; padding: 1.25rem; margin-bottom: 1.25rem; border-radius: 4px; }
-    .update-card h3 { margin-bottom: 0.25rem; color: #012169; }
-    .update-card .date { font-size: 0.85rem; color: #009EFF; margin-bottom: 0.5rem; }
-
-    /* Footer */
-    footer { background: #012169; color: #6CACE4; text-align: center; padding: 1.5rem; font-size: 0.9rem; }
+    .widget h2 { font-size: 1.4rem; margin-bottom: 1rem; }
   </style>
 </head>
 <body>
 
-  <!-- Header / Navigation -->
-  <header>
-    <h1>Coach Ty</h1>
-    <nav>
-      <a href="#widgets">Dashboard</a>
-      <a href="#updates">Updates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <h1>Hello Tyler!</h1>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <h2>Daily Updates from Coach Ty</h2>
-    <p>Stay up to date with training plans, game recaps, and team announcements.</p>
-    <a href="#widgets" class="cta">See Latest Updates</a>
-  </section>
-
-  <!-- Widgets Section -->
-  <section class="widgets" id="widgets">
-
+  <div class="widgets">
     <a class="widget" href="players.html">
-      <h3>Players to Contact</h3>
-      <ul>
-        <li>Player Name - Reason for contact</li>
-        <li>Player Name - Reason for contact</li>
-        <li>Player Name - Reason for contact</li>
-      </ul>
-      <span class="view-all">View All Players &rarr;</span>
+      <h2>Players to Contact</h2>
     </a>
-
     <a class="widget" href="games.html">
-      <h3>Games Coming Up</h3>
-      <ul>
-        <li>vs. Opponent - Date &amp; Time</li>
-        <li>vs. Opponent - Date &amp; Time</li>
-        <li>vs. Opponent - Date &amp; Time</li>
-      </ul>
-      <span class="view-all">View Full Schedule &rarr;</span>
+      <h2>Games Coming Up</h2>
     </a>
-
-  </section>
-
-  <!-- Daily Updates Section -->
-  <section class="updates" id="updates">
-    <h2>Latest Updates</h2>
-
-    <div class="update-card">
-      <h3>Update Title</h3>
-      <p class="date">January 29, 2026</p>
-      <p>Summary of today's update goes here.</p>
-    </div>
-
-    <div class="update-card">
-      <h3>Update Title</h3>
-      <p class="date">January 28, 2026</p>
-      <p>Summary of yesterday's update goes here.</p>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer id="contact">
-    <p>&copy; 2026 Coach Ty Daily Updates. All rights reserved.</p>
-  </footer>
+  </div>
 
 </body>
 </html>
