@@ -1,0 +1,49 @@
+name: Daily Export & Process
+
+on:
+  schedule:
+    - cron: "0 12 * * *"   # Runs daily at 12:00 UTC
+  workflow_dispatch:        # Manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  export-and-process:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install pandas playwright
+          playwright install --with-deps chromium
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run fetch_export.py
+        env:
+          ARMS_USERNAME: ${{ secrets.ARMS_USERNAME }}
+          ARMS_PASS: ${{ secrets.ARMS_PASS }}
+          ARMS_URL: ${{ secrets.ARMS_URL }}
+          HEADLESS: "true"
+        run: python fetch_export.py
+
+      - name: Read RUN_ID
+        id: run_id
+        run: echo "RUN_ID=$(cat data/last_run_id.txt)" >> "$GITHUB_OUTPUT"
+
+      - name: Run process_data.py
+        env:
+          RUN_ID: ${{ steps.run_id.outputs.RUN_ID }}
+        run: python process_data.py

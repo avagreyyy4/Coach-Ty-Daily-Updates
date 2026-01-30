@@ -41,7 +41,7 @@
       cursor: pointer;
       text-decoration: none;
       display: flex;
-      align-items: flex-end;
+      flex-direction: column;
       color: #012169;
       transition: transform 0.25s ease, box-shadow 0.25s ease;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
@@ -55,6 +55,27 @@
     .widget h2 {
       font-size: 1.25rem;
       font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .widget ul {
+      list-style: none;
+      flex: 1;
+    }
+
+    .widget ul li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid rgba(1, 33, 105, 0.1);
+      font-size: 0.95rem;
+    }
+
+    .widget ul li:last-child {
+      border-bottom: none;
+    }
+
+    .widget .empty {
+      color: rgba(1, 33, 105, 0.5);
+      font-size: 0.9rem;
     }
   </style>
 </head>
@@ -65,11 +86,36 @@
   <div class="widgets">
     <a class="widget" href="players.html">
       <h2>Players to Contact</h2>
+      <ul id="players-list">
+        <li class="empty">Loading...</li>
+      </ul>
     </a>
     <a class="widget" href="games.html">
       <h2>Games Coming Up</h2>
     </a>
   </div>
+
+  <script>
+    fetch("data/top5.json")
+      .then(res => res.json())
+      .then(data => {
+        const ul = document.getElementById("players-list");
+        ul.innerHTML = "";
+        if (data.players && data.players.length) {
+          data.players.forEach(name => {
+            const li = document.createElement("li");
+            li.textContent = name;
+            ul.appendChild(li);
+          });
+        } else {
+          ul.innerHTML = '<li class="empty">No players right now</li>';
+        }
+      })
+      .catch(() => {
+        document.getElementById("players-list").innerHTML =
+          '<li class="empty">Could not load players</li>';
+      });
+  </script>
 
 </body>
 </html>
