@@ -37,7 +37,7 @@ jobs:
           cp index.html _site/
           cp -r data _site/data 2>/dev/null || echo "No data dir yet"
           echo "Encrypting with StatiCrypt..."
-          staticrypt _site/index.html -p "$SITE_PASSWORD" -o _site/index.html
+          staticrypt _site/index.html -p "$SITE_PASSWORD" -o _site/index.html --short
           echo "Checking if encryption worked..."
           head -c 200 _site/index.html
 
