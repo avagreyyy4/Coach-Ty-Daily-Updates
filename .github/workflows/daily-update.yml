@@ -58,6 +58,9 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Install StatiCrypt
+        run: npm install -g staticrypt@3
+
       - name: Prepare and encrypt site
         env:
           SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
@@ -65,7 +68,10 @@ jobs:
           mkdir -p _site
           cp index.html _site/
           cp -r data _site/data
-          npx staticrypt@3 _site/index.html -p "$SITE_PASSWORD" -o _site/index.html --short
+          echo "Encrypting with StatiCrypt..."
+          staticrypt _site/index.html -p "$SITE_PASSWORD" -o _site/index.html
+          echo "Checking if encryption worked..."
+          head -c 200 _site/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
