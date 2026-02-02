@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ================== PACKAGES ==================
-import json, subprocess
+import json, random, subprocess
 from pathlib import Path
 from typing import Dict, Any
 
@@ -13,6 +13,7 @@ FILTERS: Dict[str, Dict[str, Any]] = {
 
 TOP_N = 5
 DISTANCE_ORDER = ["far", "never", "recent"]
+EXCLUDE_CALLERS = ["alexandra bassetti", "kizmar"]
 
 # ================== HELPERS ==================
 def _ensure_dir(p: Path):
@@ -67,22 +68,22 @@ def add_recency_bucket(
     df[f"{prefix}_distance"] = dist
     return df
 
-def sort_by_last_called(df: pd.DataFrame) -> pd.DataFrame:
-    order = {k: i for i, k in enumerate(DISTANCE_ORDER)}
-    today = pd.Timestamp.now(tz="UTC").normalize()
-
-    return (
-        df.assign(
-            _called_rank=df["called_distance"].map(order).fillna(999),
-            _called_days=(today - df["called_dt"]).dt.days.fillna(9999),
-        )
-        .sort_values(
-            by=["_called_rank", "_called_days"],
-            ascending=[True, False],
-            kind="stable",
-        )
-        .drop(columns=["_called_rank", "_called_days"])
-    )
+def pick_random_by_distance(df: pd.DataFrame, n: int) -> pd.DataFrame:
+    """Pick n recruits, prioritizing by distance bucket (far > never > recent),
+    but randomizing within each bucket."""
+    picked = []
+    for bucket in DISTANCE_ORDER:
+        if len(picked) >= n:
+            break
+        pool = df[df["called_distance"] == bucket]
+        need = n - len(picked)
+        if len(pool) <= need:
+            picked.append(pool)
+        else:
+            picked.append(pool.sample(n=need, random_state=random.randint(0, 2**31)))
+    if not picked:
+        return df.head(0)
+    return pd.concat(picked).reset_index(drop=True)
 
 # ================== MAIN ==================
 def main():
@@ -115,9 +116,15 @@ def main():
         df["called_dt"] = pd.NaT
         df["called_distance"] = "never"
 
-    # Sort + top 5 recruits not called recently
-    df = sort_by_last_called(df)
-    df_top = df.head(TOP_N).reset_index(drop=True)
+    # Exclude recruits last called by specific people
+    call_with_col = next((c for c in df.columns if "call" in c.lower() and "with" in c.lower()), None)
+    if call_with_col:
+        caller = df[call_with_col].str.strip().str.lower()
+        df = df[~caller.isin(EXCLUDE_CALLERS)]
+        print(f"[info] filtered out recruits called by {EXCLUDE_CALLERS} via '{call_with_col}'")
+
+    # Pick top 5 randomly, prioritizing by distance bucket
+    df_top = pick_random_by_distance(df, TOP_N)
 
     # Save CSV
     top_csv = out_dir / "top5.csv"
