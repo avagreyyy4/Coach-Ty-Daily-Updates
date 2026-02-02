@@ -35,7 +35,7 @@
     }
 
     .widget {
-      background: #8ec7e8;
+      background: rgba(142, 199, 232, 0.9);
       border-radius: 16px;
       padding: 2rem;
       min-height: 260px;
@@ -56,7 +56,7 @@
 
     .widget h2 {
       font-size: 1.25rem;
-      font-weight: 600;
+      font-weight: 700;
       margin-bottom: 1rem;
       padding-bottom: 0.6rem;
       border-bottom: 1px solid rgba(1, 33, 105, 0.15);
@@ -122,19 +122,10 @@
       background: rgba(80, 80, 80, 0.12);
     }
 
-    .greeting-sub {
-      text-align: center;
-      color: rgba(1, 33, 105, 0.4);
-      font-size: 0.95rem;
-      margin-top: -3rem;
-      margin-bottom: 2rem;
-      letter-spacing: 0.02em;
-    }
-
     .logo {
       display: block;
       margin: 0 auto 3rem;
-      max-width: 120px;
+      max-width: 160px;
       height: auto;
     }
 
@@ -161,7 +152,6 @@
 
   <div id="main-content">
     <h1 id="greeting">Hello Tyler!</h1>
-    <p class="greeting-sub">Your daily recruiting snapshot</p>
     <img src="lion.png" alt="Lion logo" class="logo">
 
     <div class="widgets">
@@ -220,7 +210,7 @@
         const ul = document.getElementById("players-list");
         ul.innerHTML = "";
         if (data.players && data.players.length) {
-          data.players.forEach(name => {
+          data.players.slice(0, 5).forEach(name => {
             const li = document.createElement("li");
             li.textContent = name;
             ul.appendChild(li);
