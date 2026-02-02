@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # ================== PACKAGES ==================
-import json, os, subprocess
+import json, subprocess
 from pathlib import Path
 from typing import Dict, Any
 
@@ -86,15 +86,11 @@ def sort_by_last_called(df: pd.DataFrame) -> pd.DataFrame:
 
 # ================== MAIN ==================
 def main():
-    run_id = os.getenv("RUN_ID")
-    if not run_id:
-        raise RuntimeError("RUN_ID not set")
-
-    raw_csv = Path(f"data/export_{run_id}.csv")
+    raw_csv = Path("data/export.csv")
     if not raw_csv.exists():
         raise FileNotFoundError(raw_csv)
 
-    out_dir = Path(f"data/processed/{run_id}")
+    out_dir = Path("data")
     _ensure_dir(out_dir)
 
     df = pd.read_csv(raw_csv, dtype=str, keep_default_na=False)
@@ -139,7 +135,7 @@ def main():
         repo_root = Path(__file__).resolve().parent
         subprocess.run(["git", "add", "data/"], cwd=repo_root, check=True)
         subprocess.run(
-            ["git", "commit", "-m", f"data: processed top 5 for run {run_id}"],
+            ["git", "commit", "-m", "data: processed top 5"],
             cwd=repo_root, check=True,
         )
         subprocess.run(["git", "push"], cwd=repo_root, check=True)

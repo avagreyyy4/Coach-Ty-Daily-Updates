@@ -678,21 +678,12 @@ async def do_one_export(page, exp: Dict) -> Optional[str]:
         print(f"[info] No new rows for '{layout_text}' (skipped).")
         return None
 
-    # Save to data/ directory in the repo
+    # Save to data/ directory in the repo (always overwrite)
     run_id = datetime.now().strftime("%Y%m%d_%H%M%S")
     out_dir = Path("data")
     _ensure_dir(out_dir)
-    raw_csv = out_dir / f"export_{run_id}.csv"
+    raw_csv = out_dir / "export.csv"
     df.to_csv(raw_csv, index=False)
-
-    manifest = {
-        "run_id": run_id,
-        "layout": layout_text,
-        "rows": int(len(df)),
-        "saved_csv": str(raw_csv),
-        "timestamp": datetime.now().isoformat(timespec="seconds")
-    }
-    (out_dir / f"manifest_{run_id}.json").write_text(json.dumps(manifest, indent=2))
 
     # convenience for the next step
     (out_dir / "last_run_id.txt").write_text(run_id)

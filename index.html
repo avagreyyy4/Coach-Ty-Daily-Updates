@@ -77,13 +77,58 @@
       color: rgba(1, 33, 105, 0.5);
       font-size: 0.9rem;
     }
+
+    #lock-screen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    #lock-screen h1 {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    #lock-screen input {
+      font-family: 'Inter', Arial, sans-serif;
+      font-size: 1rem;
+      padding: 0.75rem 1.25rem;
+      border: 2px solid #012169;
+      border-radius: 8px;
+      outline: none;
+      width: 260px;
+      text-align: center;
+    }
+
+    #lock-screen input:focus {
+      border-color: #B9D9EB;
+      box-shadow: 0 0 0 3px rgba(185, 217, 235, 0.4);
+    }
+
+    #lock-screen .error {
+      color: #c00;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+      visibility: hidden;
+    }
+
+    #main-content { display: none; }
   </style>
 </head>
 <body>
 
-  <h1>Hello Tyler!</h1>
+  <div id="lock-screen">
+    <h1>Coach Ty Updates</h1>
+    <input type="password" id="pass-input" placeholder="Enter passcode" autofocus>
+    <p class="error" id="pass-error">Incorrect passcode</p>
+  </div>
 
-  <div class="widgets">
+  <div id="main-content">
+    <h1>Hello Tyler!</h1>
+
+    <div class="widgets">
     <a class="widget" href="players.html">
       <h2>Players to Contact</h2>
       <ul id="players-list">
@@ -93,7 +138,35 @@
     <a class="widget" href="games.html">
       <h2>Games Coming Up</h2>
     </a>
+    </div>
   </div>
+
+  <script>
+    const PASSCODE = "GoTy2025";
+
+    const input = document.getElementById("pass-input");
+    const error = document.getElementById("pass-error");
+    const lock = document.getElementById("lock-screen");
+    const main = document.getElementById("main-content");
+
+    if (sessionStorage.getItem("authed") === "1") {
+      lock.style.display = "none";
+      main.style.display = "block";
+    }
+
+    input.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        if (input.value === PASSCODE) {
+          sessionStorage.setItem("authed", "1");
+          lock.style.display = "none";
+          main.style.display = "block";
+        } else {
+          error.style.visibility = "visible";
+          input.value = "";
+        }
+      }
+    });
+  </script>
 
   <script>
     fetch("data/top5.json")
@@ -118,4 +191,5 @@
   </script>
 
 </body>
+</html>
 </html>

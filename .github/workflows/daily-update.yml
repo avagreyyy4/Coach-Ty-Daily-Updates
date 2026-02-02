@@ -1,6 +1,8 @@
 name: Daily Export & Process
 
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: "0 12 * * *"   # Runs daily at 12:00 UTC
   workflow_dispatch:        # Manual trigger
@@ -44,34 +46,14 @@ jobs:
           HEADLESS: "true"
         run: python fetch_export.py
 
-      - name: Read RUN_ID
-        id: run_id
-        run: echo "RUN_ID=$(cat data/last_run_id.txt)" >> "$GITHUB_OUTPUT"
-
       - name: Run process_data.py
-        env:
-          RUN_ID: ${{ steps.run_id.outputs.RUN_ID }}
         run: python process_data.py
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
-      - name: Install StatiCrypt
-        run: npm install -g staticrypt@3
-
-      - name: Prepare and encrypt site
-        env:
-          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+      - name: Prepare site
         run: |
           mkdir -p _site
           cp index.html _site/
           cp -r data _site/data
-          echo "Encrypting with StatiCrypt..."
-          staticrypt _site/index.html -p "$SITE_PASSWORD" -o _site/index.html --short
-          echo "Checking if encryption worked..."
-          head -c 200 _site/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
