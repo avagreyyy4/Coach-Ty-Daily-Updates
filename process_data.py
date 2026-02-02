@@ -13,7 +13,7 @@ FILTERS: Dict[str, Dict[str, Any]] = {
 
 TOP_N = 5
 DISTANCE_ORDER = ["far", "never", "recent"]
-EXCLUDE_CALLERS = ["alexandra bassetti", "kizmar"]
+EXCLUDE_CALLERS = ["alexandra bassetti", "Kizmahr Grell"]
 
 # ================== HELPERS ==================
 def _ensure_dir(p: Path):
@@ -68,22 +68,15 @@ def add_recency_bucket(
     df[f"{prefix}_distance"] = dist
     return df
 
-def pick_random_by_distance(df: pd.DataFrame, n: int) -> pd.DataFrame:
-    """Pick n recruits, prioritizing by distance bucket (far > never > recent),
-    but randomizing within each bucket."""
-    picked = []
-    for bucket in DISTANCE_ORDER:
-        if len(picked) >= n:
-            break
-        pool = df[df["called_distance"] == bucket]
-        need = n - len(picked)
-        if len(pool) <= need:
-            picked.append(pool)
-        else:
-            picked.append(pool.sample(n=need, random_state=random.randint(0, 2**31)))
-    if not picked:
+def pick_random_far(df: pd.DataFrame, n: int) -> pd.DataFrame:
+    """Pick n recruits randomly from the 'far' bucket only."""
+    pool = df[df["called_distance"] == "far"]
+    if pool.empty:
+        print("[warn] no recruits in 'far' bucket")
         return df.head(0)
-    return pd.concat(picked).reset_index(drop=True)
+    if len(pool) <= n:
+        return pool.reset_index(drop=True)
+    return pool.sample(n=n, random_state=random.randint(0, 2**31)).reset_index(drop=True)
 
 # ================== MAIN ==================
 def main():
@@ -124,7 +117,7 @@ def main():
         print(f"[info] filtered out recruits called by {EXCLUDE_CALLERS} via '{call_with_col}'")
 
     # Pick top 5 randomly, prioritizing by distance bucket
-    df_top = pick_random_by_distance(df, TOP_N)
+    df_top = pick_random_far(df, TOP_N)
 
     # Save CSV
     top_csv = out_dir / "top5.csv"
