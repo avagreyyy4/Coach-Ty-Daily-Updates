@@ -11,7 +11,7 @@
 
     body {
       font-family: 'Inter', Arial, sans-serif;
-      background: #fff;
+      background: #EDF4F8;
       min-height: 100vh;
     }
 
@@ -21,7 +21,7 @@
       font-size: 2.4rem;
       font-weight: 700;
       margin-top: 4rem;
-      margin-bottom: 3rem;
+      margin-bottom: 5rem;
     }
 
     .widgets {
@@ -34,7 +34,7 @@
     }
 
     .widget {
-      background: #B9D9EB;
+      background: rgba(185, 217, 235, 0.3);
       border-radius: 16px;
       padding: 2rem;
       min-height: 260px;
@@ -65,12 +65,7 @@
 
     .widget ul li {
       padding: 0.5rem 0;
-      border-bottom: 1px solid rgba(1, 33, 105, 0.1);
       font-size: 0.95rem;
-    }
-
-    .widget ul li:last-child {
-      border-bottom: none;
     }
 
     .widget .empty {
@@ -100,6 +95,7 @@
       outline: none;
       width: 260px;
       text-align: center;
+      background: #fff;
     }
 
     #lock-screen input:focus {
@@ -126,7 +122,7 @@
   </div>
 
   <div id="main-content">
-    <h1>Hello Tyler!</h1>
+    <h1 id="greeting">Hello Tyler!</h1>
 
     <div class="widgets">
     <a class="widget" href="players.html">
@@ -166,6 +162,13 @@
         }
       }
     });
+
+    // Time-based greeting
+    const hour = new Date().getHours();
+    let greeting = "Good evening";
+    if (hour < 12) greeting = "Good morning";
+    else if (hour < 17) greeting = "Good afternoon";
+    document.getElementById("greeting").textContent = greeting + ", Tyler!";
   </script>
 
   <script>
@@ -191,5 +194,4 @@
   </script>
 
 </body>
-</html>
 </html>
