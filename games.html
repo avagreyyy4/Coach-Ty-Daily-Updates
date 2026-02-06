@@ -244,7 +244,7 @@
         // Filter to this week and sort by date
         const upcoming = games
           .map(g => ({ ...g, _date: parseGameDate(g.date) }))
-          .filter(g => g._date >= today && g._date < weekOut)
+          .filter(g => g._date >= today && g._date < weekOut && (g.total_tracked || 0) > 0)
           .sort((a, b) => a._date - b._date);
 
         if (!upcoming.length) {

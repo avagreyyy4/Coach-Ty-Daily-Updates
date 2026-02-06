@@ -265,10 +265,6 @@
       if (!evalDate || evalDate.getFullYear() < 2025) {
         warns.push("Missing/Old Evaluation");
       }
-      const noParent = !p.mother_name && !p.father_name && !p.mother_phone && !p.father_phone;
-      if (noParent) {
-        warns.push("No Parent Information");
-      }
 
       const warningsHTML = warns.length
         ? `<div class="warnings">${warns.map(w => `<span class="warning-tag">${w}</span>`).join("")}</div>`
@@ -298,16 +294,14 @@
             ${detailCell("Called With", p.last_call_with || "")}
             ${detailCell("High School", p.hs_name || "")}
             ${detailCell("HS Phone", p.hs_phone || "")}
-            ${detailCell("Mother", p.mother_name || "")}
-            ${detailCell("Mother Phone", p.mother_phone || "")}
-            ${detailCell("Father", p.father_name || "")}
-            ${detailCell("Father Phone", p.father_phone || "")}
+            ${detailCell("State", p.state || "")}
+            ${detailCell("Position", p.position || "")}
           </div>
           ${warningsHTML}
         </div>`;
     }
 
-    fetch("data/players.json")
+    fetch("data/top5.json")
       .then(res => res.json())
       .then(data => {
         const el = document.getElementById("player-list");

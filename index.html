@@ -157,7 +157,7 @@
       animation: fadeInUp 0.5s ease forwards;
     }
 
-    .cards .card-link:nth-child(1) { animation-delay: 0.1s; }
+    .cards .card-link:nth-child(1) { flex: 1.5; animation-delay: 0.1s; }
     .cards .card-link:nth-child(2) { animation-delay: 0.25s; }
 
     @media (max-width: 600px) {
@@ -376,7 +376,7 @@
   </div>
 
   <script>
-    const PASSCODE = "GoTy2025";
+    const PASSCODE = "__SITE_PASSCODE__";
 
     const input = document.getElementById("pass-input");
     const error = document.getElementById("pass-error");
@@ -467,7 +467,7 @@
         const weekOut = new Date(now.getTime() + 7 * 86400000);
         const upcoming = games.filter(g => {
           const d = new Date(g.date.replace(/ (EST|EDT|CST|CDT|MST|MDT|PST|PDT)$/, ""));
-          return d >= now && d <= weekOut;
+          return d >= now && d <= weekOut && (g.total_tracked || 0) > 0;
         }).slice(0, 5);
 
         if (upcoming.length) {
