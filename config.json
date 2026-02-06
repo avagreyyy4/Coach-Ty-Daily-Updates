@@ -5,7 +5,7 @@
         "gradYear": { "type": "checkbox", "selector": ["2027"] },
         "ACS Rank": { "type": "checkbox", "selector": ["High Priority", "Priority", "Potential/WatchMore"] }
       },
-      "export": { "export_profile": "Non_Color_Contact" }
+      "export": { "export_profile": "Weekly_Updates" }
     }
   ]
 }

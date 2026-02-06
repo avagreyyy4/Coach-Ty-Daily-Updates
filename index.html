@@ -249,6 +249,35 @@
       flex-shrink: 0;
     }
 
+    .player-list .player-name {
+      flex: 1;
+      min-width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .player-list .tags {
+      display: flex;
+      gap: 0.35rem;
+      margin-left: auto;
+      flex-shrink: 0;
+    }
+
+    .player-list .tag {
+      font-size: 0.625rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 100px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .tag--navy        { background: #012169; color: #fff; }
+    .tag--columbia    { background: #99CAEA; color: #012169; }
+    .tag--anthracite  { background: #4a4a4a; color: #fff; }
+    .tag--default     { background: var(--border); color: var(--text-secondary); }
+
     .player-list li.empty {
       color: var(--text-muted);
       font-size: 0.875rem;
@@ -333,12 +362,12 @@
       <a class="card-link" href="games.html">
         <div class="card">
           <div class="card-header">
-            <h2><span class="accent-dot"></span>Games Coming Up</h2>
+            <h2><span class="accent-dot"></span>Games This Week</h2>
+            <span class="badge" id="games-count">--</span>
           </div>
-          <div class="empty-state">
-            <div class="empty-icon">&#128197;</div>
-            <p>No upcoming games scheduled yet.</p>
-          </div>
+          <ul class="player-list" id="games-list">
+            <li class="empty">Loading...</li>
+          </ul>
         </div>
       </a>
     </div>
@@ -381,6 +410,17 @@
   </script>
 
   <script>
+    const COLOR_CLASS = {
+      "navy": "tag--navy",
+      "columbia blue": "tag--columbia",
+      "anthracite": "tag--anthracite",
+    };
+
+    function colorTag(color) {
+      const cls = COLOR_CLASS[(color || "").toLowerCase()] || "tag--default";
+      return `<span class="tag ${cls}">${color || "—"}</span>`;
+    }
+
     fetch("data/top5.json")
       .then(res => res.json())
       .then(data => {
@@ -390,9 +430,17 @@
         if (data.players && data.players.length) {
           const players = data.players.slice(0, 5);
           badge.textContent = players.length + " players";
-          players.forEach(name => {
+          players.forEach(p => {
             const li = document.createElement("li");
-            li.textContent = name;
+            const name = typeof p === "string" ? p : p.name;
+            const tags = typeof p === "object"
+              ? `<span class="tags">`
+                + (p.position ? colorTag(p.color).replace(">" + p.color, ">" + p.position) : "")
+                + colorTag(p.color)
+                + (p.state ? `<span class="tag tag--default">${p.state}</span>` : "")
+                + `</span>`
+              : "";
+            li.innerHTML = `<span class="player-name">${name}</span>${tags}`;
             ul.appendChild(li);
           });
         } else {
@@ -404,6 +452,44 @@
         document.getElementById("players-list").innerHTML =
           '<li class="empty">Could not load players</li>';
         document.getElementById("player-count").textContent = "--";
+      });
+  </script>
+
+  <script>
+    fetch("data/games.json")
+      .then(res => res.json())
+      .then(games => {
+        const ul = document.getElementById("games-list");
+        const badge = document.getElementById("games-count");
+        ul.innerHTML = "";
+        // Show games within the next 7 days
+        const now = new Date();
+        const weekOut = new Date(now.getTime() + 7 * 86400000);
+        const upcoming = games.filter(g => {
+          const d = new Date(g.date.replace(/ (EST|EDT|CST|CDT|MST|MDT|PST|PDT)$/, ""));
+          return d >= now && d <= weekOut;
+        }).slice(0, 5);
+
+        if (upcoming.length) {
+          badge.textContent = upcoming.length + " games";
+          upcoming.forEach(g => {
+            const li = document.createElement("li");
+            const label = g.school_1 + " vs " + g.school_2;
+            const count = g.total_tracked || 0;
+            const countTag = count > 0
+              ? `<span class="tags"><span class="tag ${count > 3 ? 'tag--navy' : 'tag--default'}">${count} tracked</span></span>`
+              : "";
+            li.innerHTML = `<span class="player-name">${label}</span>${countTag}`;
+            ul.appendChild(li);
+          });
+        } else {
+          badge.textContent = "0";
+          ul.innerHTML = '<li class="empty">No games this week</li>';
+        }
+      })
+      .catch(() => {
+        document.getElementById("games-list").innerHTML =
+          '<li class="empty">Could not load games</li>';
       });
   </script>
 

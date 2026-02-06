@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Players - Coach Ty</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+    :root {
+      --bg: #eef4f9;
+      --surface: #ffffff;
+      --accent: #012169;
+      --accent-light: #99CAEA;
+      --accent-wash: rgba(153, 202, 234, 0.12);
+      --text-primary: #012169;
+      --text-secondary: #6b7280;
+      --text-muted: #9ca3af;
+      --border: #e5e7eb;
+      --border-light: #f3f4f6;
+      --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+      --radius: 10px;
+      --warn: #dc2626;
+      --warn-bg: #fef2f2;
+      --warn-border: #fecaca;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background: var(--bg);
+      min-height: 100vh;
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .top-bar {
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--accent-light), var(--accent), var(--accent-light));
+      position: fixed; top: 0; left: 0; z-index: 100;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 5rem 1.5rem 4rem;
+    }
+
+    /* ── Header ── */
+    .page-header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .back-link {
+      text-decoration: none;
+      color: var(--accent-light);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    .page-header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      letter-spacing: -0.02em;
+    }
+
+    .page-header .count {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--surface);
+      background: var(--accent-light);
+      padding: 0.2rem 0.6rem;
+      border-radius: 100px;
+      margin-left: auto;
+    }
+
+    /* ── Player cards ── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .player-card {
+      background: var(--surface);
+      border: 1px solid rgba(153, 202, 234, 0.3);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 1rem;
+      overflow: hidden;
+      opacity: 0;
+      animation: fadeInUp 0.4s ease forwards;
+    }
+
+    .player-card:nth-child(1) { animation-delay: 0.05s; }
+    .player-card:nth-child(2) { animation-delay: 0.1s; }
+    .player-card:nth-child(3) { animation-delay: 0.15s; }
+    .player-card:nth-child(4) { animation-delay: 0.2s; }
+    .player-card:nth-child(5) { animation-delay: 0.25s; }
+
+    /* Snapshot row */
+    .snapshot {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border-light);
+      flex-wrap: wrap;
+    }
+
+    .snapshot .name {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .snapshot .phone-link {
+      font-size: 0.8125rem;
+      color: var(--accent-light);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .snapshot .phone-link:hover { text-decoration: underline; }
+
+    .tags {
+      display: flex;
+      gap: 0.3rem;
+      margin-left: auto;
+      flex-wrap: wrap;
+    }
+
+    .tag {
+      font-size: 0.625rem;
+      font-weight: 600;
+      padding: 0.15rem 0.45rem;
+      border-radius: 100px;
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .tag--navy        { background: #012169; color: #fff; }
+    .tag--columbia    { background: #99CAEA; color: #012169; }
+    .tag--anthracite  { background: #4a4a4a; color: #fff; }
+    .tag--default     { background: var(--border); color: var(--text-secondary); }
+
+    /* Detail rows */
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0;
+    }
+
+    .detail {
+      padding: 0.6rem 1.25rem;
+      border-bottom: 1px solid var(--border-light);
+      font-size: 0.8125rem;
+    }
+
+    .detail:nth-child(odd) { border-right: 1px solid var(--border-light); }
+
+    .detail .label {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.15rem;
+    }
+
+    .detail .value {
+      color: var(--text-primary);
+      word-break: break-word;
+    }
+
+    .detail .value.empty-val {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Warnings */
+    .warnings {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      padding: 0.6rem 1.25rem;
+      background: var(--warn-bg);
+      border-top: 1px solid var(--warn-border);
+    }
+
+    .warning-tag {
+      font-size: 0.6875rem;
+      font-weight: 600;
+      color: var(--warn);
+      background: rgba(220, 38, 38, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 100px;
+    }
+
+    /* Empty state */
+    .empty-msg {
+      text-align: center;
+      padding: 3rem 1rem;
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar"></div>
+
+  <div class="container">
+    <div class="page-header">
+      <a href="index.html" class="back-link">&larr;</a>
+      <h1>Players</h1>
+      <span class="count" id="player-count">--</span>
+    </div>
+
+    <div id="player-list"></div>
+  </div>
+
+  <script>
+    const COLOR_CLASS = {
+      "navy": "tag--navy",
+      "columbia blue": "tag--columbia",
+      "anthracite": "tag--anthracite",
+    };
+    const TRANSCRIPT_CUTOFF = new Date("2025-06-15");
+    const EVAL_CUTOFF = new Date("2025-01-01");
+
+    function tagHTML(text, cls) {
+      return `<span class="tag ${cls}">${text}</span>`;
+    }
+
+    function colorClass(color) {
+      return COLOR_CLASS[(color || "").toLowerCase()] || "tag--default";
+    }
+
+    function detailCell(label, value) {
+      const v = value
+        ? `<span class="value">${value}</span>`
+        : `<span class="value empty-val">--</span>`;
+      return `<div class="detail"><div class="label">${label}</div>${v}</div>`;
+    }
+
+    function parseDate(str) {
+      if (!str) return null;
+      const d = new Date(str);
+      return isNaN(d.getTime()) ? null : d;
+    }
+
+    function renderPlayer(p) {
+      // Warnings
+      const warns = [];
+      const transcriptDate = parseDate(p.has_transcript);
+      if (!transcriptDate || transcriptDate < TRANSCRIPT_CUTOFF) {
+        warns.push("Missing/Old Transcript");
+      }
+      const evalDate = parseDate(p.last_eval);
+      if (!evalDate || evalDate.getFullYear() < 2025) {
+        warns.push("Missing/Old Evaluation");
+      }
+      const noParent = !p.mother_name && !p.father_name && !p.mother_phone && !p.father_phone;
+      if (noParent) {
+        warns.push("No Parent Information");
+      }
+
+      const warningsHTML = warns.length
+        ? `<div class="warnings">${warns.map(w => `<span class="warning-tag">${w}</span>`).join("")}</div>`
+        : "";
+
+      // Tags
+      const tagsHTML = `<span class="tags">`
+        + (p.position ? tagHTML(p.position, colorClass(p.color)) : "")
+        + tagHTML(p.color || "—", colorClass(p.color))
+        + (p.state ? tagHTML(p.state, "tag--default") : "")
+        + `</span>`;
+
+      // Phone link
+      const phoneHTML = p.phone
+        ? `<a href="tel:${p.phone}" class="phone-link">${p.phone}</a>`
+        : "";
+
+      return `
+        <div class="player-card">
+          <div class="snapshot">
+            <span class="name">${p.name}</span>
+            ${phoneHTML}
+            ${tagsHTML}
+          </div>
+          <div class="details">
+            ${detailCell("Last Called", p.last_called || "")}
+            ${detailCell("Called With", p.last_call_with || "")}
+            ${detailCell("High School", p.hs_name || "")}
+            ${detailCell("HS Phone", p.hs_phone || "")}
+            ${detailCell("Mother", p.mother_name || "")}
+            ${detailCell("Mother Phone", p.mother_phone || "")}
+            ${detailCell("Father", p.father_name || "")}
+            ${detailCell("Father Phone", p.father_phone || "")}
+          </div>
+          ${warningsHTML}
+        </div>`;
+    }
+
+    fetch("data/players.json")
+      .then(res => res.json())
+      .then(data => {
+        const el = document.getElementById("player-list");
+        const badge = document.getElementById("player-count");
+        const players = data.players || [];
+        badge.textContent = players.length;
+        if (players.length) {
+          el.innerHTML = players.map(renderPlayer).join("");
+        } else {
+          el.innerHTML = '<p class="empty-msg">No players for this month.</p>';
+        }
+      })
+      .catch(() => {
+        document.getElementById("player-list").innerHTML =
+          '<p class="empty-msg">Could not load players.</p>';
+      });
+  </script>
+
+</body>
+</html>
