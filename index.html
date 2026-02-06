@@ -14,7 +14,7 @@
       --accent-light: #99CAEA;
       --accent-wash: rgba(153, 202, 234, 0.12);
       --accent-subtle: rgba(153, 202, 234, 0.15);
-      --text-primary: #111827;
+      --text-primary: #012169;
       --text-secondary: #6b7280;
       --text-muted: #9ca3af;
       --border: #e5e7eb;
@@ -109,7 +109,7 @@
     /* ── Main content ── */
     #main-content {
       display: none;
-      max-width: 720px;
+      max-width: 860px;
       margin: 0 auto;
       padding: 0 1.5rem 4rem;
     }
@@ -137,18 +137,31 @@
       line-height: 1.2;
     }
 
-    .header .subtext {
-      font-size: 0.875rem;
-      color: var(--accent-light);
-      margin-top: 0.5rem;
-      font-weight: 500;
+
+    /* ── Fade-in ── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
     }
 
     /* ── Cards ── */
     .cards {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       gap: var(--spacing-lg);
+    }
+
+    .cards .card-link {
+      flex: 1;
+      opacity: 0;
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
+    .cards .card-link:nth-child(1) { animation-delay: 0.1s; }
+    .cards .card-link:nth-child(2) { animation-delay: 0.25s; }
+
+    @media (max-width: 600px) {
+      .cards { flex-direction: column; }
     }
 
     .card {
@@ -308,7 +321,6 @@
     <div class="header">
       <img src="lion.png" alt="Lion logo" class="logo">
       <h1 id="greeting">Good evening, Tyler</h1>
-      <p class="subtext" id="subtext">Here are your priority players for today.</p>
     </div>
 
     <div class="cards">
@@ -384,8 +396,6 @@
         if (data.players && data.players.length) {
           const players = data.players.slice(0, 5);
           badge.textContent = players.length + " players";
-          document.getElementById("subtext").textContent =
-            players.length + " priority player" + (players.length !== 1 ? "s" : "") + " to reach out to today.";
           players.forEach(name => {
             const li = document.createElement("li");
             li.textContent = name;
@@ -394,7 +404,6 @@
         } else {
           badge.textContent = "0";
           ul.innerHTML = '<li class="empty">No players right now</li>';
-          document.getElementById("subtext").textContent = "No priority players for today.";
         }
       })
       .catch(() => {
