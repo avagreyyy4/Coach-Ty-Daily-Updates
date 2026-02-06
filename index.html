@@ -8,11 +8,12 @@
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
     :root {
-      --bg: #f8f9fa;
+      --bg: #eef4f9;
       --surface: #ffffff;
       --accent: #012169;
       --accent-light: #99CAEA;
-      --accent-subtle: rgba(1, 33, 105, 0.06);
+      --accent-wash: rgba(153, 202, 234, 0.12);
+      --accent-subtle: rgba(153, 202, 234, 0.15);
       --text-primary: #111827;
       --text-secondary: #6b7280;
       --text-muted: #9ca3af;
@@ -90,7 +91,12 @@
 
     #lock-screen input:focus {
       border-color: var(--accent-light);
-      box-shadow: 0 0 0 3px rgba(153, 202, 234, 0.25);
+      box-shadow: 0 0 0 3px rgba(153, 202, 234, 0.3);
+    }
+
+    #lock-screen input::placeholder {
+      color: var(--accent-light);
+      opacity: 0.6;
     }
 
     #lock-screen .error {
@@ -133,9 +139,9 @@
 
     .header .subtext {
       font-size: 0.875rem;
-      color: var(--text-secondary);
+      color: var(--accent-light);
       margin-top: 0.5rem;
-      font-weight: 400;
+      font-weight: 500;
     }
 
     /* ── Cards ── */
@@ -147,16 +153,17 @@
 
     .card {
       background: var(--surface);
-      border: 1px solid var(--border);
+      border: 1px solid rgba(153, 202, 234, 0.3);
       border-radius: var(--radius);
       box-shadow: var(--shadow-sm);
       overflow: hidden;
-      transition: box-shadow 0.2s ease, transform 0.2s ease;
+      transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
     }
 
     .card:hover {
-      box-shadow: var(--shadow-lg);
+      box-shadow: 0 8px 24px rgba(153, 202, 234, 0.2);
       transform: translateY(-2px);
+      border-color: var(--accent-light);
     }
 
     .card-header {
@@ -165,6 +172,7 @@
       justify-content: space-between;
       padding: var(--spacing-md) var(--spacing-lg);
       border-bottom: 1px solid var(--border-light);
+      background: var(--accent-wash);
     }
 
     .card-header h2 {
@@ -172,14 +180,14 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.06em;
-      color: var(--text-secondary);
+      color: var(--accent);
     }
 
     .card-header .badge {
       font-size: 0.6875rem;
       font-weight: 600;
-      color: var(--accent);
-      background: var(--accent-subtle);
+      color: var(--surface);
+      background: var(--accent-light);
       padding: 0.2rem 0.6rem;
       border-radius: 100px;
       letter-spacing: 0.02em;
@@ -215,7 +223,7 @@
     }
 
     .player-list li:hover {
-      background: var(--accent-subtle);
+      background: var(--accent-wash);
     }
 
     .player-list li::before {
@@ -266,14 +274,15 @@
     footer {
       margin-top: var(--spacing-xl);
       padding: 1.5rem 0;
-      border-top: 1px solid var(--border);
+      border-top: 2px solid rgba(153, 202, 234, 0.3);
       text-align: center;
     }
 
     footer span {
       font-size: 0.75rem;
-      color: var(--text-muted);
+      color: var(--accent-light);
       letter-spacing: 0.03em;
+      font-weight: 500;
     }
 
     /* ── Link reset for card wrappers ── */
