@@ -23,7 +23,7 @@ jobs:
       - name: Prepare site
         run: |
           mkdir -p _site
-          cp index.html _site/
+          cp index.html players.html games.html _site/
           cp -r data _site/data 2>/dev/null || echo "No data dir yet"
           cp lion.png _site/ 2>/dev/null || echo "No lion.png yet"
 
