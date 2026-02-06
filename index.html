@@ -363,11 +363,7 @@
         <div class="card">
           <div class="card-header">
             <h2><span class="accent-dot"></span>Games This Week</h2>
-            <span class="badge" id="games-count">--</span>
           </div>
-          <ul class="player-list" id="games-list">
-            <li class="empty">Loading...</li>
-          </ul>
         </div>
       </a>
     </div>
@@ -455,43 +451,6 @@
       });
   </script>
 
-  <script>
-    fetch("data/games.json")
-      .then(res => res.json())
-      .then(games => {
-        const ul = document.getElementById("games-list");
-        const badge = document.getElementById("games-count");
-        ul.innerHTML = "";
-        // Show games within the next 7 days
-        const now = new Date();
-        const weekOut = new Date(now.getTime() + 7 * 86400000);
-        const upcoming = games.filter(g => {
-          const d = new Date(g.date.replace(/ (EST|EDT|CST|CDT|MST|MDT|PST|PDT)$/, ""));
-          return d >= now && d <= weekOut && (g.total_tracked || 0) > 0;
-        }).slice(0, 5);
-
-        if (upcoming.length) {
-          badge.textContent = upcoming.length + " games";
-          upcoming.forEach(g => {
-            const li = document.createElement("li");
-            const label = g.school_1 + " vs " + g.school_2;
-            const count = g.total_tracked || 0;
-            const countTag = count > 0
-              ? `<span class="tags"><span class="tag ${count > 3 ? 'tag--navy' : 'tag--default'}">${count} tracked</span></span>`
-              : "";
-            li.innerHTML = `<span class="player-name">${label}</span>${countTag}`;
-            ul.appendChild(li);
-          });
-        } else {
-          badge.textContent = "0";
-          ul.innerHTML = '<li class="empty">No games this week</li>';
-        }
-      })
-      .catch(() => {
-        document.getElementById("games-list").innerHTML =
-          '<li class="empty">Could not load games</li>';
-      });
-  </script>
 
 </body>
 </html>

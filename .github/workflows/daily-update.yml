@@ -2,7 +2,7 @@ name: Daily Export & Process
 
 on:
   schedule:
-    - cron: "0 12 * * *"   # Runs daily at 12:00 UTC
+    - cron: "0 10 * * 1"   # Runs every Monday at 5:00 AM ET (10:00 UTC)
   workflow_dispatch:        # Manual trigger
 
 permissions:
