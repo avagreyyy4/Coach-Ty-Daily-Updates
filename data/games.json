@@ -1,132 +1,11 @@
 [
   {
-    "date": "02/10/26 11:59 PM EST",
-    "school_1": "MORRIS CATHOLIC HS",
-    "school_2": "ST THOMAS AQUINAS HS",
-    "recruits_2027": [
-      "Leah Kearney (2027)",
-      "Ashley LaBeach (2027)",
-      "Jacqueline Edelman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 3
-    },
-    "total_tracked": 3
-  },
-  {
-    "date": "02/06/26 02:00 PM EST",
-    "school_1": "ST MARY S RYKEN HS",
-    "school_2": "St. Paul VI Catholic High School",
-    "recruits_2027": [
-      "Leylani Abraham (2027)",
-      "Amaya Ramey (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 1
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/06/26 06:30 PM EST",
-    "school_1": "NOBLE & GREENOUGH SCHOOL",
-    "school_2": "HOOSAC SCHOOL",
-    "recruits_2027": [
-      "Anna Moser (2027)",
-      "Tabitha Gotsch (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/06/26 06:30 PM EST",
-    "school_1": "Noble and Greenough School",
-    "school_2": "HOOSAC SCHOOL",
-    "recruits_2027": [
-      "Anna Moser (2027)",
-      "Tabitha Gotsch (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
-    },
-    "total_tracked": 2
-  },
-  {
     "date": "02/06/26 06:30 PM EST",
     "school_1": "THE AWTY INTERNATIONAL SCHOOL",
     "school_2": "THE KINKAID SCHOOL",
     "recruits_2027": [
       "Lauren Hull (2027)",
       "Sydney Marshall (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 1
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
-    "school_1": "BISHOP MCNAMARA HS",
-    "school_2": "ELIZABETH SETON HS",
-    "recruits_2027": [
-      "Nevaeh Roberson (2027)",
-      "Qandace Samuels (2027)"
-    ],
-    "color_counts": {
-      "Navy": 2,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/09/26 05:45 PM EST",
-    "school_1": "BISHOP MCNAMARA HS",
-    "school_2": "NORFOLK TECHNICAL CTR",
-    "recruits_2027": [
-      "Nevaeh Roberson (2027)",
-      "Qandace Samuels (2027)"
-    ],
-    "color_counts": {
-      "Navy": 2,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/09/26 07:00 PM EST",
-    "school_1": "BISHOP MCNAMARA HS",
-    "school_2": "NORFOLK CHRISTIAN SCHOOLS",
-    "recruits_2027": [
-      "Nevaeh Roberson (2027)",
-      "Qandace Samuels (2027)"
-    ],
-    "color_counts": {
-      "Navy": 2,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/10/26 08:45 AM EST",
-    "school_1": "St. Paul VI Catholic High School",
-    "school_2": "POPE JOHN PAUL THE GREAT CATHOLIC HIGH SCHOOL",
-    "recruits_2027": [
-      "Leylani Abraham (2027)",
-      "Amaya Ramey (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -151,96 +30,6 @@
     "total_tracked": 2
   },
   {
-    "date": "02/11/26 05:00 PM EST",
-    "school_1": "CAPITAL PREPARATORY MAGNET SCHOOL",
-    "school_2": "BISHOP MCNAMARA HS",
-    "recruits_2027": [
-      "Nevaeh Roberson (2027)",
-      "Qandace Samuels (2027)"
-    ],
-    "color_counts": {
-      "Navy": 2,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/11/26 06:00 PM EST",
-    "school_1": "CHRIST THE KING HIGH SCHOOL",
-    "school_2": "Monsignor Scanlan High School",
-    "recruits_2027": [
-      "Journey Atkins (2027)",
-      "Josephine Pinnock (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/12/26 04:00 PM EST",
-    "school_1": "MADISON AVENUE BAPTIST ACADEMY",
-    "school_2": "MORRIS CATHOLIC HS",
-    "recruits_2027": [
-      "Ashley LaBeach (2027)",
-      "Jacqueline Edelman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/13/26 02:00 PM EST",
-    "school_1": "ARCHBISHOP CARROLL HS",
-    "school_2": "St. Paul VI Catholic High School",
-    "recruits_2027": [
-      "Leylani Abraham (2027)",
-      "Amaya Ramey (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 1
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/13/26 04:30 PM EST",
-    "school_1": "RIVERDALE COUNTRY SCHOOL",
-    "school_2": "LONG ISLAND LUTHERAN MIDDLE & HIGH SCHOOL",
-    "recruits_2027": [
-      "Cecelia Arico (2027)",
-      "Taylor Brown (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 2,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/13/26 06:00 PM EST",
-    "school_1": "MARIANAPOLIS PREP SCHOOL",
-    "school_2": "HOOSAC SCHOOL",
-    "recruits_2027": [
-      "Anna Moser (2027)",
-      "Tabitha Gotsch (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
-    },
-    "total_tracked": 2
-  },
-  {
     "date": "02/13/26 07:00 PM EST",
     "school_1": "TILTON SCHOOL",
     "school_2": "TABOR ACADEMY",
@@ -251,21 +40,6 @@
     "color_counts": {
       "Navy": 0,
       "Columbia Blue": 2,
-      "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/13/26 07:00 PM EST",
-    "school_1": "BISHOP MCNAMARA HS",
-    "school_2": "ST MARY S RYKEN HS",
-    "recruits_2027": [
-      "Nevaeh Roberson (2027)",
-      "Qandace Samuels (2027)"
-    ],
-    "color_counts": {
-      "Navy": 2,
-      "Columbia Blue": 0,
       "Anthracite": 0
     },
     "total_tracked": 2
@@ -286,21 +60,6 @@
     "total_tracked": 2
   },
   {
-    "date": "02/16/26 02:30 PM EST",
-    "school_1": "ST JOHNS COLLEGE HS",
-    "school_2": "St. Paul VI Catholic High School",
-    "recruits_2027": [
-      "Leylani Abraham (2027)",
-      "Amaya Ramey (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 1
-    },
-    "total_tracked": 2
-  },
-  {
     "date": "02/18/26 12:59 AM EST",
     "school_1": "Grind Prep Academy",
     "school_2": "TBD",
@@ -312,21 +71,6 @@
       "Navy": 1,
       "Columbia Blue": 1,
       "Anthracite": 0
-    },
-    "total_tracked": 2
-  },
-  {
-    "date": "02/18/26 03:30 PM EST",
-    "school_1": "THE MACDUFFIE SCHOOL",
-    "school_2": "HOOSAC SCHOOL",
-    "recruits_2027": [
-      "Anna Moser (2027)",
-      "Tabitha Gotsch (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 2
     },
     "total_tracked": 2
   },
@@ -344,6 +88,20 @@
       "Anthracite": 0
     },
     "total_tracked": 2
+  },
+  {
+    "date": "02/06/26 02:00 PM EST",
+    "school_1": "ST MARY S RYKEN HS",
+    "school_2": "St. Paul VI Catholic High School",
+    "recruits_2027": [
+      "Amaya Ramey (2027)"
+    ],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 1,
+      "Anthracite": 0
+    },
+    "total_tracked": 1
   },
   {
     "date": "02/06/26 05:30 PM EST",
@@ -374,62 +132,6 @@
     "total_tracked": 1
   },
   {
-    "date": "02/06/26 05:30 PM EST",
-    "school_1": "MONROE AREA HS",
-    "school_2": "OCONEE COUNTY HS",
-    "recruits_2027": [
-      "Kie'Aundria Acree (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 05:30 PM EST",
-    "school_1": "CANNON SCHOOL",
-    "school_2": "PROVIDENCE DAY SCHOOL",
-    "recruits_2027": [
-      "Virginia Dumont (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 06:00 PM EST",
-    "school_1": "NC Good Better Best Academy",
-    "school_2": "WINSTON-SALEM STREET SCHOOL",
-    "recruits_2027": [
-      "Kaidyn Atkinson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 06:00 PM EST",
-    "school_1": "GRIFFIN HS",
-    "school_2": "JONESBORO HS",
-    "recruits_2027": [
-      "Naima Foster (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/06/26 06:00 PM EST",
     "school_1": "CREEKVIEW HS",
     "school_2": "RIVER RIDGE HS",
@@ -444,16 +146,30 @@
     "total_tracked": 1
   },
   {
-    "date": "02/06/26 06:45 PM EST",
-    "school_1": "Glenn HS",
-    "school_2": "BROCK HS",
+    "date": "02/06/26 06:30 PM EST",
+    "school_1": "NOBLE & GREENOUGH SCHOOL",
+    "school_2": "HOOSAC SCHOOL",
     "recruits_2027": [
-      "Elizabeth Lee (2027)"
+      "Tabitha Gotsch (2027)"
     ],
     "color_counts": {
-      "Navy": 1,
+      "Navy": 0,
       "Columbia Blue": 0,
-      "Anthracite": 0
+      "Anthracite": 1
+    },
+    "total_tracked": 1
+  },
+  {
+    "date": "02/06/26 06:30 PM EST",
+    "school_1": "Noble and Greenough School",
+    "school_2": "HOOSAC SCHOOL",
+    "recruits_2027": [
+      "Tabitha Gotsch (2027)"
+    ],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 1
     },
     "total_tracked": 1
   },
@@ -487,20 +203,6 @@
   },
   {
     "date": "02/06/26 07:00 PM EST",
-    "school_1": "CENTENNIAL HS",
-    "school_2": "PEORIA NOTRE DAME HS",
-    "recruits_2027": [
-      "Emery Wardle (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
     "school_1": "OLENTANGY HS",
     "school_2": "HILLIARD DAVIDSON HS",
     "recruits_2027": [
@@ -515,29 +217,15 @@
   },
   {
     "date": "02/06/26 07:00 PM EST",
-    "school_1": "FAYETTEVILLE HS",
-    "school_2": "HAR-BER HS",
+    "school_1": "BISHOP MCNAMARA HS",
+    "school_2": "ELIZABETH SETON HS",
     "recruits_2027": [
-      "Syniah Coachman (2027)"
+      "Qandace Samuels (2027)"
     ],
     "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
-    "school_1": "WYLIE E. GROVES HS",
-    "school_2": "ROYAL OAK HS",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
+      "Navy": 1,
       "Columbia Blue": 0,
-      "Anthracite": 1
+      "Anthracite": 0
     },
     "total_tracked": 1
   },
@@ -551,20 +239,6 @@
     "color_counts": {
       "Navy": 1,
       "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
-    "school_1": "GROVEPORT MADISON HS",
-    "school_2": "PICKERINGTON HS CENTRAL",
-    "recruits_2027": [
-      "Zoe Coleman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
       "Anthracite": 0
     },
     "total_tracked": 1
@@ -585,34 +259,6 @@
   },
   {
     "date": "02/06/26 07:00 PM EST",
-    "school_1": "MESQUITE BAPTIST ACADEMY",
-    "school_2": "DUNCANVILLE HS",
-    "recruits_2027": [
-      "Samari Holmen (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
-    "school_1": "MONTGOMERY CENTRAL HS",
-    "school_2": "CREEK WOOD HS",
-    "recruits_2027": [
-      "Laila Downs (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
     "school_1": "Newman Smith High School",
     "school_2": "HIGHLAND PARK HS",
     "recruits_2027": [
@@ -622,34 +268,6 @@
       "Navy": 0,
       "Columbia Blue": 0,
       "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:00 PM EST",
-    "school_1": "WAKELAND HS",
-    "school_2": "LONE STAR HS",
-    "recruits_2027": [
-      "Charlotte Cavin (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 07:15 PM EST",
-    "school_1": "DOWLING CATHOLIC HS",
-    "school_2": "ANKENY CHRISTIAN ACADEMY",
-    "recruits_2027": [
-      "Katie Muller (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
     },
     "total_tracked": 1
   },
@@ -682,179 +300,11 @@
     "total_tracked": 1
   },
   {
-    "date": "02/06/26 07:30 PM EST",
-    "school_1": "WEST JESSAMINE HS",
-    "school_2": "BETHLEHEM HS",
-    "recruits_2027": [
-      "Jane Marshall (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:00 PM EST",
-    "school_1": "WINDSOR HS",
-    "school_2": "FOSSIL RIDGE HS",
-    "recruits_2027": [
-      "Gracie Worsley (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:00 PM EST",
-    "school_1": "Glenn HS",
-    "school_2": "CEDAR CREEK HS",
-    "recruits_2027": [
-      "Elizabeth Lee (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/06/26 08:00 PM EST",
     "school_1": "EARLE HS",
     "school_2": "PULASKI ACADEMY",
     "recruits_2027": [
       "Journey Jefferson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:00 PM EST",
-    "school_1": "ALC EDEN PRAIRIE HS-IS",
-    "school_2": "HOPKINS HS",
-    "recruits_2027": [
-      "Erma Walker (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:30 PM EST",
-    "school_1": "CLOVIS NORTH HS",
-    "school_2": "BUCHANAN HS",
-    "recruits_2027": [
-      "Gabriella Gomez (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:30 PM EST",
-    "school_1": "PROSSER HS",
-    "school_2": "GRANDVIEW HS",
-    "recruits_2027": [
-      "Elle Wright (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 08:45 PM EST",
-    "school_1": "NOOKSACK VALLEY HS",
-    "school_2": "LYNDEN HS",
-    "recruits_2027": [
-      "Finley Parcher (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/06/26 11:59 PM EST",
-    "school_1": "DME ACADEMY",
-    "school_2": "GRACE CHRISTIAN SCHOOL",
-    "recruits_2027": [
-      "Trinity Boone (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/07/26 12:59 AM EST",
-    "school_1": "KAPAUN MT CARMEL CATHOLIC HS",
-    "school_2": "EAST HS",
-    "recruits_2027": [
-      "Zoey Buckner-Franklin (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/07/26 11:30 AM EST",
-    "school_1": "CYPRESS CHRISTIAN SCHOOL",
-    "school_2": "STRATFORD HS",
-    "recruits_2027": [
-      "Tess Stephenson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/07/26 01:30 PM EST",
-    "school_1": "CATHOLIC HS",
-    "school_2": "ST ANNE'S-BELFIELD SCHOOL",
-    "recruits_2027": [
-      "Justice Brown-Jones (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/07/26 02:30 PM EST",
-    "school_1": "MAINE EAST HS",
-    "school_2": "LIBERTYVILLE HS",
-    "recruits_2027": [
-      "Lily Fisher (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -878,81 +328,39 @@
     "total_tracked": 1
   },
   {
-    "date": "02/07/26 03:30 PM EST",
-    "school_1": "Mt. Zion Prep",
-    "school_2": "THE POTOMAC SCHOOL",
+    "date": "02/09/26 05:45 PM EST",
+    "school_1": "BISHOP MCNAMARA HS",
+    "school_2": "NORFOLK TECHNICAL CTR",
     "recruits_2027": [
-      "Sabrina Anderson (2027)"
+      "Qandace Samuels (2027)"
     ],
     "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
+      "Navy": 1,
+      "Columbia Blue": 0,
       "Anthracite": 0
     },
     "total_tracked": 1
   },
   {
     "date": "02/09/26 07:00 PM EST",
-    "school_1": "HARPETH HS",
-    "school_2": "CREEK WOOD HS",
+    "school_1": "BISHOP MCNAMARA HS",
+    "school_2": "NORFOLK CHRISTIAN SCHOOLS",
     "recruits_2027": [
-      "Laila Downs (2027)"
+      "Qandace Samuels (2027)"
     ],
     "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/09/26 08:00 PM EST",
-    "school_1": "LIBERTYVILLE HS",
-    "school_2": "Glenbrook South High School",
-    "recruits_2027": [
-      "Lily Fisher (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/09/26 08:00 PM EST",
-    "school_1": "SUMMIT CHRISTIAN ACADEMY",
-    "school_2": "STALEY HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 03:45 PM EST",
-    "school_1": "CHERRY HILL REGIONAL SCHOOL",
-    "school_2": "LENAPE HS",
-    "recruits_2027": [
-      "El-Anita Joe-Samuel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
+      "Navy": 1,
       "Columbia Blue": 0,
-      "Anthracite": 1
+      "Anthracite": 0
     },
     "total_tracked": 1
   },
   {
-    "date": "02/10/26 05:30 PM EST",
-    "school_1": "PROVIDENCE DAY SCHOOL",
-    "school_2": "Charlotte Lab School",
+    "date": "02/10/26 08:45 AM EST",
+    "school_1": "St. Paul VI Catholic High School",
+    "school_2": "POPE JOHN PAUL THE GREAT CATHOLIC HIGH SCHOOL",
     "recruits_2027": [
-      "Virginia Dumont (2027)"
+      "Amaya Ramey (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -972,104 +380,6 @@
       "Navy": 0,
       "Columbia Blue": 0,
       "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 05:30 PM EST",
-    "school_1": "WYLIE E. GROVES HS",
-    "school_2": "DETROIT COUNTRY DAY",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 05:45 PM EST",
-    "school_1": "THE POTOMAC SCHOOL",
-    "school_2": "ST ANDREW'S EPISCOPAL SCHOOL",
-    "recruits_2027": [
-      "Sabrina Anderson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 06:00 PM EST",
-    "school_1": "ST FRANCIS HIGH SCHOOL",
-    "school_2": "The Mount Vernon School - Upper School",
-    "recruits_2027": [
-      "Giaunni Rogers (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 06:00 PM EST",
-    "school_1": "HARRIS COUNTY HS",
-    "school_2": "GRIFFIN HS",
-    "recruits_2027": [
-      "Naima Foster (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 06:00 PM EST",
-    "school_1": "MONROE AREA HS",
-    "school_2": "Cherokee Bluff High School",
-    "recruits_2027": [
-      "Kie'Aundria Acree (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 06:30 PM EST",
-    "school_1": "PIONEER HS",
-    "school_2": "EAST AURORA HS",
-    "recruits_2027": [
-      "Celsy Colombo (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 06:30 PM EST",
-    "school_1": "NORMAL COMMUNITY WEST HS",
-    "school_2": "PEORIA NOTRE DAME HS",
-    "recruits_2027": [
-      "Emery Wardle (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
     },
     "total_tracked": 1
   },
@@ -1116,76 +426,6 @@
     "total_tracked": 1
   },
   {
-    "date": "02/10/26 07:00 PM EST",
-    "school_1": "NORTHSIDE HS",
-    "school_2": "FAYETTEVILLE HS",
-    "recruits_2027": [
-      "Syniah Coachman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 07:00 PM EST",
-    "school_1": "DUNCANVILLE HS",
-    "school_2": "CEDAR HILL HS",
-    "recruits_2027": [
-      "Samari Holmen (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 07:00 PM EST",
-    "school_1": "CREEK WOOD HS",
-    "school_2": "STEWART CO HS",
-    "recruits_2027": [
-      "Laila Downs (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 07:15 PM EST",
-    "school_1": "DOWLING CATHOLIC HS",
-    "school_2": "SOUTHEAST POLK HS",
-    "recruits_2027": [
-      "Katie Muller (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 07:30 PM EST",
-    "school_1": "WEST JESSAMINE HS",
-    "school_2": "BURGIN HS",
-    "recruits_2027": [
-      "Jane Marshall (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/10/26 07:30 PM EST",
     "school_1": "CYPRESS SPRINGS HS",
     "school_2": "CYPRESS LAKES HS",
@@ -1200,71 +440,15 @@
     "total_tracked": 1
   },
   {
-    "date": "02/10/26 08:00 PM EST",
-    "school_1": "LEANDER CHARTER ACADEMY",
-    "school_2": "Glenn HS",
+    "date": "02/11/26 05:00 PM EST",
+    "school_1": "CAPITAL PREPARATORY MAGNET SCHOOL",
+    "school_2": "BISHOP MCNAMARA HS",
     "recruits_2027": [
-      "Elizabeth Lee (2027)"
+      "Qandace Samuels (2027)"
     ],
     "color_counts": {
       "Navy": 1,
       "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 08:00 PM EST",
-    "school_1": "POUDRE HS",
-    "school_2": "WINDSOR HS",
-    "recruits_2027": [
-      "Gracie Worsley (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 08:00 PM EST",
-    "school_1": "LEANDER HS",
-    "school_2": "Glenn HS",
-    "recruits_2027": [
-      "Elizabeth Lee (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/10/26 08:30 PM EST",
-    "school_1": "CLOVIS NORTH HS",
-    "school_2": "CENTRAL HIGH EAST CAMPUS",
-    "recruits_2027": [
-      "Gabriella Gomez (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/11/26 06:00 PM EST",
-    "school_1": "FRANKLIN HS",
-    "school_2": "Mount St Mary Academy",
-    "recruits_2027": [
-      "Aleah Sunkins (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
       "Anthracite": 0
     },
     "total_tracked": 1
@@ -1272,9 +456,9 @@
   {
     "date": "02/11/26 06:00 PM EST",
     "school_1": "CHRIST THE KING HIGH SCHOOL",
-    "school_2": "MSGR SCANLAN HS",
+    "school_2": "Monsignor Scanlan High School",
     "recruits_2027": [
-      "Josephine Pinnock (2027)"
+      "Journey Atkins (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -1284,25 +468,11 @@
     "total_tracked": 1
   },
   {
-    "date": "02/11/26 06:00 PM EST",
-    "school_1": "WINSTON-SALEM STREET SCHOOL",
-    "school_2": "NC Good Better Best Academy",
+    "date": "02/13/26 02:00 PM EST",
+    "school_1": "ARCHBISHOP CARROLL HS",
+    "school_2": "St. Paul VI Catholic High School",
     "recruits_2027": [
-      "Kaidyn Atkinson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/11/26 06:30 PM EST",
-    "school_1": "STRATFORD HS",
-    "school_2": "AMERICAN ACADEMY",
-    "recruits_2027": [
-      "Tess Stephenson (2027)"
+      "Amaya Ramey (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -1312,128 +482,30 @@
     "total_tracked": 1
   },
   {
-    "date": "02/11/26 07:30 PM EST",
-    "school_1": "RANDALL K. COOPER HS",
-    "school_2": "HOLY CROSS DISTRICT HS",
+    "date": "02/13/26 04:30 PM EST",
+    "school_1": "RIVERDALE COUNTRY SCHOOL",
+    "school_2": "LONG ISLAND LUTHERAN MIDDLE & HIGH SCHOOL",
     "recruits_2027": [
-      "Haylee Noel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/11/26 08:00 PM EST",
-    "school_1": "LIBERTYVILLE HS",
-    "school_2": "ZION-BENTON TWNSHP HI SCH",
-    "recruits_2027": [
-      "Lily Fisher (2027)"
+      "Taylor Brown (2027)"
     ],
     "color_counts": {
       "Navy": 0,
       "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/12/26 05:30 PM EST",
-    "school_1": "Charlotte Lab School",
-    "school_2": "PROVIDENCE DAY SCHOOL",
-    "recruits_2027": [
-      "Virginia Dumont (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/12/26 06:00 PM EST",
-    "school_1": "LENAPE HS",
-    "school_2": "RANCOCAS VALLEY REGIONAL HS",
-    "recruits_2027": [
-      "El-Anita Joe-Samuel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/12/26 06:30 PM EST",
-    "school_1": "MARYVALE HS",
-    "school_2": "PIONEER HS",
-    "recruits_2027": [
-      "Celsy Colombo (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/12/26 08:00 PM EST",
-    "school_1": "CARMEL CATHOLIC HS",
-    "school_2": "LIBERTYVILLE HS",
-    "recruits_2027": [
-      "Lily Fisher (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/12/26 08:00 PM EST",
-    "school_1": "WAYZATA HS",
-    "school_2": "ALC EDEN PRAIRIE HS-IS",
-    "recruits_2027": [
-      "Annika Kieser (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/13/26 05:30 PM EST",
-    "school_1": "EAST HALL HS",
-    "school_2": "MONROE AREA HS",
-    "recruits_2027": [
-      "Kie'Aundria Acree (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
       "Anthracite": 0
     },
     "total_tracked": 1
   },
   {
     "date": "02/13/26 06:00 PM EST",
-    "school_1": "EAST JESSAMINE HS",
-    "school_2": "WEST JESSAMINE HS",
+    "school_1": "MARIANAPOLIS PREP SCHOOL",
+    "school_2": "HOOSAC SCHOOL",
     "recruits_2027": [
-      "Jane Marshall (2027)"
+      "Tabitha Gotsch (2027)"
     ],
     "color_counts": {
-      "Navy": 1,
+      "Navy": 0,
       "Columbia Blue": 0,
-      "Anthracite": 0
+      "Anthracite": 1
     },
     "total_tracked": 1
   },
@@ -1467,20 +539,6 @@
   },
   {
     "date": "02/13/26 07:00 PM EST",
-    "school_1": "MILFORD HS",
-    "school_2": "WYLIE E. GROVES HS",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/13/26 07:00 PM EST",
     "school_1": "DUBLIN SCIOTO HS",
     "school_2": "OLENTANGY HS",
     "recruits_2027": [
@@ -1495,14 +553,14 @@
   },
   {
     "date": "02/13/26 07:00 PM EST",
-    "school_1": "FAYETTEVILLE HS",
-    "school_2": "ROGERS HS",
+    "school_1": "BISHOP MCNAMARA HS",
+    "school_2": "ST MARY S RYKEN HS",
     "recruits_2027": [
-      "Syniah Coachman (2027)"
+      "Qandace Samuels (2027)"
     ],
     "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
+      "Navy": 1,
+      "Columbia Blue": 0,
       "Anthracite": 0
     },
     "total_tracked": 1
@@ -1522,128 +580,16 @@
     "total_tracked": 1
   },
   {
-    "date": "02/13/26 07:30 PM EST",
-    "school_1": "STALEY HS",
-    "school_2": "LIBERTY NORTH HS",
+    "date": "02/16/26 02:30 PM EST",
+    "school_1": "ST JOHNS COLLEGE HS",
+    "school_2": "St. Paul VI Catholic High School",
     "recruits_2027": [
-      "Destiny Manyawu (2027)"
+      "Amaya Ramey (2027)"
     ],
     "color_counts": {
       "Navy": 0,
       "Columbia Blue": 1,
       "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/13/26 07:30 PM EST",
-    "school_1": "PICKERINGTON HS CENTRAL",
-    "school_2": "TEAYS VALLEY HS",
-    "recruits_2027": [
-      "Zoe Coleman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/13/26 07:30 PM EST",
-    "school_1": "STALEY HS",
-    "school_2": "LIBERAL HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/13/26 08:00 PM EST",
-    "school_1": "WINDSOR HS",
-    "school_2": "FORT COLLINS HS",
-    "recruits_2027": [
-      "Gracie Worsley (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/14/26 02:30 PM EST",
-    "school_1": "BISHOP DENIS J O'CONNELL HS",
-    "school_2": "CATHOLIC HS",
-    "recruits_2027": [
-      "Justice Brown-Jones (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/16/26 07:30 PM EST",
-    "school_1": "EVANGEL CHRISTIAN ACADEMY",
-    "school_2": "CORONADO HS",
-    "recruits_2027": [
-      "Harper Dunn (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/16/26 08:00 PM EST",
-    "school_1": "BLUE SPRINGS HS",
-    "school_2": "STALEY HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/16/26 11:59 PM EST",
-    "school_1": "CATHOLIC HS",
-    "school_2": "TBD",
-    "recruits_2027": [
-      "Justice Brown-Jones (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/17/26 07:00 PM EST",
-    "school_1": "WYLIE E. GROVES HS",
-    "school_2": "WEST BLOOMFIELD HS",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
     },
     "total_tracked": 1
   },
@@ -1662,44 +608,16 @@
     "total_tracked": 1
   },
   {
-    "date": "02/17/26 07:30 PM EST",
-    "school_1": "WEST JESSAMINE HS",
-    "school_2": "WESTERN HILLS HS",
+    "date": "02/18/26 03:30 PM EST",
+    "school_1": "THE MACDUFFIE SCHOOL",
+    "school_2": "HOOSAC SCHOOL",
     "recruits_2027": [
-      "Jane Marshall (2027)"
+      "Tabitha Gotsch (2027)"
     ],
     "color_counts": {
-      "Navy": 1,
+      "Navy": 0,
       "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/17/26 08:00 PM EST",
-    "school_1": "ROCKY MOUNTAIN HS",
-    "school_2": "WINDSOR HS",
-    "recruits_2027": [
-      "Gracie Worsley (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/17/26 08:00 PM EST",
-    "school_1": "BENTON HS",
-    "school_2": "FAYETTEVILLE HS",
-    "recruits_2027": [
-      "Syniah Coachman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
+      "Anthracite": 1
     },
     "total_tracked": 1
   },
@@ -1732,62 +650,6 @@
     "total_tracked": 1
   },
   {
-    "date": "02/19/26 07:00 PM EST",
-    "school_1": "PINE HILL SCHOOLS",
-    "school_2": "CORONADO HS",
-    "recruits_2027": [
-      "Harper Dunn (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/19/26 08:00 PM EST",
-    "school_1": "STALEY HS",
-    "school_2": "BLUE SPRINGS HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/20/26 05:00 PM EST",
-    "school_1": "AUSTIN PREPARATORY SCHOOL",
-    "school_2": "WORCESTER ACADEMY",
-    "recruits_2027": [
-      "Gracyn Barnes (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/20/26 07:00 PM EST",
-    "school_1": "BERKLEY HS",
-    "school_2": "WYLIE E. GROVES HS",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/20/26 07:00 PM EST",
     "school_1": "NASHVILLE HS",
     "school_2": "CAMDEN FAIRVIEW HS",
@@ -1802,76 +664,6 @@
     "total_tracked": 1
   },
   {
-    "date": "02/20/26 07:00 PM EST",
-    "school_1": "FAYETTEVILLE HS",
-    "school_2": "SPRINGDALE HS",
-    "recruits_2027": [
-      "Syniah Coachman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/20/26 07:30 PM EST",
-    "school_1": "WEST JESSAMINE HS",
-    "school_2": "ANDERSON COUNTY HS",
-    "recruits_2027": [
-      "Jane Marshall (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/20/26 07:30 PM EST",
-    "school_1": "RANDALL K. COOPER HS",
-    "school_2": "ASSUMPTION HS",
-    "recruits_2027": [
-      "Haylee Noel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 1,
-      "Columbia Blue": 0,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/20/26 08:00 PM EST",
-    "school_1": "WINDSOR HS",
-    "school_2": "LOVELAND HS",
-    "recruits_2027": [
-      "Gracie Worsley (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/21/26 01:00 PM EST",
-    "school_1": "CAMDEN CATHOLIC HS",
-    "school_2": "LENAPE HS",
-    "recruits_2027": [
-      "El-Anita Joe-Samuel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/21/26 01:00 PM EST",
     "school_1": "TILTON SCHOOL",
     "school_2": "St. Luke\u2019s School",
@@ -1887,80 +679,10 @@
   },
   {
     "date": "02/21/26 01:00 PM EST",
-    "school_1": "CAMDEN CATHOLIC HS",
-    "school_2": "LENAPE HS",
-    "recruits_2027": [
-      "El-Anita Joe-Samuel (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/21/26 01:00 PM EST",
     "school_1": "TILTON SCHOOL",
     "school_2": "St. Luke\u2019s School",
     "recruits_2027": [
       "Bella Owumi (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/23/26 08:00 PM EST",
-    "school_1": "STALEY HS",
-    "school_2": "SUMMIT CHRISTIAN ACADEMY",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/23/26 08:00 PM EST",
-    "school_1": "STALEY HS",
-    "school_2": "LEE'S SUMMIT WEST HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/24/26 07:00 PM EST",
-    "school_1": "WYLIE E. GROVES HS",
-    "school_2": "BLOOMFIELD HILLS HS",
-    "recruits_2027": [
-      "Harlem Simpson (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 0,
-      "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/24/26 11:59 PM EST",
-    "school_1": "PROVIDENCE DAY SCHOOL",
-    "school_2": "TBD",
-    "recruits_2027": [
-      "Virginia Dumont (2027)"
     ],
     "color_counts": {
       "Navy": 0,
@@ -1984,20 +706,6 @@
     "total_tracked": 1
   },
   {
-    "date": "02/26/26 08:00 PM EST",
-    "school_1": "SUMMIT CHRISTIAN ACADEMY",
-    "school_2": "STALEY HS",
-    "recruits_2027": [
-      "Destiny Manyawu (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
-    },
-    "total_tracked": 1
-  },
-  {
     "date": "02/27/26 06:00 PM EST",
     "school_1": "SUFFIELD ACADEMY",
     "school_2": "WILBRAHAM & MONSON ACADEMY",
@@ -2008,20 +716,6 @@
       "Navy": 0,
       "Columbia Blue": 0,
       "Anthracite": 1
-    },
-    "total_tracked": 1
-  },
-  {
-    "date": "02/27/26 07:00 PM EST",
-    "school_1": "BENTON HS",
-    "school_2": "FAYETTEVILLE HS",
-    "recruits_2027": [
-      "Syniah Coachman (2027)"
-    ],
-    "color_counts": {
-      "Navy": 0,
-      "Columbia Blue": 1,
-      "Anthracite": 0
     },
     "total_tracked": 1
   },
@@ -2040,23 +734,57 @@
     "total_tracked": 1
   },
   {
-    "date": "02/28/26 07:00 PM EST",
-    "school_1": "THE IMG ACADEMY SCHOOL (DEVELOPMENTAL)",
-    "school_2": "DME ACADEMY",
-    "recruits_2027": [
-      "Trinity Boone (2027)"
-    ],
+    "date": "02/06/26 05:30 PM EST",
+    "school_1": "MONROE AREA HS",
+    "school_2": "OCONEE COUNTY HS",
+    "recruits_2027": [],
     "color_counts": {
-      "Navy": 1,
+      "Navy": 0,
       "Columbia Blue": 0,
       "Anthracite": 0
     },
-    "total_tracked": 1
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 05:30 PM EST",
+    "school_1": "CANNON SCHOOL",
+    "school_2": "PROVIDENCE DAY SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
   },
   {
     "date": "02/06/26 05:30 PM EST",
     "school_1": "NEW BERN HS",
     "school_2": "D H CONLEY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 06:00 PM EST",
+    "school_1": "NC Good Better Best Academy",
+    "school_2": "WINSTON-SALEM STREET SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 06:00 PM EST",
+    "school_1": "GRIFFIN HS",
+    "school_2": "JONESBORO HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2091,6 +819,18 @@
   },
   {
     "date": "02/06/26 06:45 PM EST",
+    "school_1": "Glenn HS",
+    "school_2": "BROCK HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 06:45 PM EST",
     "school_1": "WALLENPAUPACK AREA HS",
     "school_2": "SCRANTON HS",
     "recruits_2027": [],
@@ -2115,8 +855,32 @@
   },
   {
     "date": "02/06/26 07:00 PM EST",
+    "school_1": "CENTENNIAL HS",
+    "school_2": "PEORIA NOTRE DAME HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
     "school_1": "OTTAWA SR HS",
     "school_2": "LOUISBURG HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
+    "school_1": "FAYETTEVILLE HS",
+    "school_2": "HAR-BER HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2139,8 +903,32 @@
   },
   {
     "date": "02/06/26 07:00 PM EST",
+    "school_1": "WYLIE E. GROVES HS",
+    "school_2": "ROYAL OAK HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
     "school_1": "FARWELL TIMBERLAND ALTERNATIVE HS",
     "school_2": "BEAVERTON HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
+    "school_1": "GROVEPORT MADISON HS",
+    "school_2": "PICKERINGTON HS CENTRAL",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2174,6 +962,42 @@
     "total_tracked": 0
   },
   {
+    "date": "02/06/26 07:00 PM EST",
+    "school_1": "MESQUITE BAPTIST ACADEMY",
+    "school_2": "DUNCANVILLE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
+    "school_1": "MONTGOMERY CENTRAL HS",
+    "school_2": "CREEK WOOD HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:00 PM EST",
+    "school_1": "WAKELAND HS",
+    "school_2": "LONE STAR HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/06/26 07:15 PM EST",
     "school_1": "GRASSFIELD HS",
     "school_2": "INDIAN RIVER HS",
@@ -2186,9 +1010,105 @@
     "total_tracked": 0
   },
   {
+    "date": "02/06/26 07:15 PM EST",
+    "school_1": "DOWLING CATHOLIC HS",
+    "school_2": "ANKENY CHRISTIAN ACADEMY",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 07:30 PM EST",
+    "school_1": "WEST JESSAMINE HS",
+    "school_2": "BETHLEHEM HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:00 PM EST",
+    "school_1": "WINDSOR HS",
+    "school_2": "FOSSIL RIDGE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:00 PM EST",
+    "school_1": "Glenn HS",
+    "school_2": "CEDAR CREEK HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:00 PM EST",
+    "school_1": "ALC EDEN PRAIRIE HS-IS",
+    "school_2": "HOPKINS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/06/26 08:15 PM EST",
     "school_1": "APPLETON ESCHOOL",
     "school_2": "KIMBERLY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:30 PM EST",
+    "school_1": "CLOVIS NORTH HS",
+    "school_2": "BUCHANAN HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:30 PM EST",
+    "school_1": "PROSSER HS",
+    "school_2": "GRANDVIEW HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/06/26 08:45 PM EST",
+    "school_1": "NOOKSACK VALLEY HS",
+    "school_2": "LYNDEN HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2222,6 +1142,42 @@
     "total_tracked": 0
   },
   {
+    "date": "02/06/26 11:59 PM EST",
+    "school_1": "DME ACADEMY",
+    "school_2": "GRACE CHRISTIAN SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/07/26 12:59 AM EST",
+    "school_1": "KAPAUN MT CARMEL CATHOLIC HS",
+    "school_2": "EAST HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/07/26 11:30 AM EST",
+    "school_1": "CYPRESS CHRISTIAN SCHOOL",
+    "school_2": "STRATFORD HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/07/26 12:00 PM EST",
     "school_1": "THE COVENANT SCHOOL",
     "school_2": "NORFOLK CHRISTIAN SCHOOLS",
@@ -2234,9 +1190,45 @@
     "total_tracked": 0
   },
   {
+    "date": "02/07/26 01:30 PM EST",
+    "school_1": "CATHOLIC HS",
+    "school_2": "ST ANNE'S-BELFIELD SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/07/26 02:30 PM EST",
+    "school_1": "MAINE EAST HS",
+    "school_2": "LIBERTYVILLE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/07/26 03:00 PM EST",
     "school_1": "EPISCOPAL HS",
     "school_2": "GEORGETOWN DAY SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/07/26 03:30 PM EST",
+    "school_1": "Mt. Zion Prep",
+    "school_2": "THE POTOMAC SCHOOL",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2294,6 +1286,54 @@
     "total_tracked": 0
   },
   {
+    "date": "02/09/26 07:00 PM EST",
+    "school_1": "HARPETH HS",
+    "school_2": "CREEK WOOD HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/09/26 08:00 PM EST",
+    "school_1": "LIBERTYVILLE HS",
+    "school_2": "Glenbrook South High School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/09/26 08:00 PM EST",
+    "school_1": "SUMMIT CHRISTIAN ACADEMY",
+    "school_2": "STALEY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 03:45 PM EST",
+    "school_1": "CHERRY HILL REGIONAL SCHOOL",
+    "school_2": "LENAPE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/10/26 04:00 PM EST",
     "school_1": "BALDWIN SCHOOL FOR GIRLS",
     "school_2": "WILLIAM PENN CHARTER SCHOOL",
@@ -2309,6 +1349,30 @@
     "date": "02/10/26 05:30 PM EST",
     "school_1": "BELLEVILLE HS",
     "school_2": "WAYNE MEMORIAL HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 05:30 PM EST",
+    "school_1": "PROVIDENCE DAY SCHOOL",
+    "school_2": "Charlotte Lab School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 05:30 PM EST",
+    "school_1": "WYLIE E. GROVES HS",
+    "school_2": "DETROIT COUNTRY DAY",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2342,6 +1406,54 @@
     "total_tracked": 0
   },
   {
+    "date": "02/10/26 05:45 PM EST",
+    "school_1": "THE POTOMAC SCHOOL",
+    "school_2": "ST ANDREW'S EPISCOPAL SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 06:00 PM EST",
+    "school_1": "ST FRANCIS HIGH SCHOOL",
+    "school_2": "The Mount Vernon School - Upper School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 06:00 PM EST",
+    "school_1": "HARRIS COUNTY HS",
+    "school_2": "GRIFFIN HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 06:00 PM EST",
+    "school_1": "MONROE AREA HS",
+    "school_2": "Cherokee Bluff High School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/10/26 06:00 PM EST",
     "school_1": "LAURENS ACADEMY",
     "school_2": "WESTSIDE HIGH AN EARLY COLLEGE ACADEMY",
@@ -2354,9 +1466,45 @@
     "total_tracked": 0
   },
   {
+    "date": "02/10/26 06:30 PM EST",
+    "school_1": "PIONEER HS",
+    "school_2": "EAST AURORA HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 06:30 PM EST",
+    "school_1": "NORMAL COMMUNITY WEST HS",
+    "school_2": "PEORIA NOTRE DAME HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/10/26 06:45 PM EST",
     "school_1": "SCRANTON HS",
     "school_2": "DELAWARE VALLEY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 07:00 PM EST",
+    "school_1": "NORTHSIDE HS",
+    "school_2": "FAYETTEVILLE HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2391,6 +1539,30 @@
   },
   {
     "date": "02/10/26 07:00 PM EST",
+    "school_1": "DUNCANVILLE HS",
+    "school_2": "CEDAR HILL HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 07:00 PM EST",
+    "school_1": "CREEK WOOD HS",
+    "school_2": "STEWART CO HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 07:00 PM EST",
     "school_1": "OTTAWA SR HS",
     "school_2": "EUDORA HS",
     "recruits_2027": [],
@@ -2414,6 +1586,54 @@
     "total_tracked": 0
   },
   {
+    "date": "02/10/26 07:15 PM EST",
+    "school_1": "DOWLING CATHOLIC HS",
+    "school_2": "SOUTHEAST POLK HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 07:30 PM EST",
+    "school_1": "WEST JESSAMINE HS",
+    "school_2": "BURGIN HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 08:00 PM EST",
+    "school_1": "LEANDER CHARTER ACADEMY",
+    "school_2": "Glenn HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 08:00 PM EST",
+    "school_1": "POUDRE HS",
+    "school_2": "WINDSOR HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/10/26 08:00 PM EST",
     "school_1": "APPLETON ESCHOOL",
     "school_2": "STEVENS POINT AREA HS",
@@ -2426,9 +1646,45 @@
     "total_tracked": 0
   },
   {
+    "date": "02/10/26 08:00 PM EST",
+    "school_1": "LEANDER HS",
+    "school_2": "Glenn HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/10/26 08:15 PM EST",
     "school_1": "GRAND FORKS AREA CAREER & TECH CENTER",
     "school_2": "Horace High School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 08:30 PM EST",
+    "school_1": "CLOVIS NORTH HS",
+    "school_2": "CENTRAL HIGH EAST CAMPUS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/10/26 11:59 PM EST",
+    "school_1": "MORRIS CATHOLIC HS",
+    "school_2": "ST THOMAS AQUINAS HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2463,8 +1719,56 @@
   },
   {
     "date": "02/11/26 06:00 PM EST",
+    "school_1": "FRANKLIN HS",
+    "school_2": "Mount St Mary Academy",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/11/26 06:00 PM EST",
     "school_1": "NORWOOD HS",
     "school_2": "ST MARYS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/11/26 06:00 PM EST",
+    "school_1": "CHRIST THE KING HIGH SCHOOL",
+    "school_2": "MSGR SCANLAN HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/11/26 06:00 PM EST",
+    "school_1": "WINSTON-SALEM STREET SCHOOL",
+    "school_2": "NC Good Better Best Academy",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/11/26 06:30 PM EST",
+    "school_1": "STRATFORD HS",
+    "school_2": "AMERICAN ACADEMY",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2486,6 +1790,30 @@
     "total_tracked": 0
   },
   {
+    "date": "02/11/26 07:30 PM EST",
+    "school_1": "RANDALL K. COOPER HS",
+    "school_2": "HOLY CROSS DISTRICT HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/11/26 08:00 PM EST",
+    "school_1": "LIBERTYVILLE HS",
+    "school_2": "ZION-BENTON TWNSHP HI SCH",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/11/26 10:00 PM EST",
     "school_1": "CASA ROBLE FUNDAMENTAL HS",
     "school_2": "NATOMAS CHARTER",
@@ -2498,9 +1826,57 @@
     "total_tracked": 0
   },
   {
+    "date": "02/12/26 04:00 PM EST",
+    "school_1": "MADISON AVENUE BAPTIST ACADEMY",
+    "school_2": "MORRIS CATHOLIC HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/12/26 05:30 PM EST",
+    "school_1": "Charlotte Lab School",
+    "school_2": "PROVIDENCE DAY SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/12/26 06:00 PM EST",
     "school_1": "WESTSIDE HIGH AN EARLY COLLEGE ACADEMY",
     "school_2": "Wren High School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/12/26 06:00 PM EST",
+    "school_1": "LENAPE HS",
+    "school_2": "RANCOCAS VALLEY REGIONAL HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/12/26 06:30 PM EST",
+    "school_1": "MARYVALE HS",
+    "school_2": "PIONEER HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2549,6 +1925,30 @@
     "date": "02/12/26 07:30 PM EST",
     "school_1": "KENTON HS",
     "school_2": "MEMORIAL HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/12/26 08:00 PM EST",
+    "school_1": "CARMEL CATHOLIC HS",
+    "school_2": "LIBERTYVILLE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/12/26 08:00 PM EST",
+    "school_1": "WAYZATA HS",
+    "school_2": "ALC EDEN PRAIRIE HS-IS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2643,8 +2043,32 @@
   },
   {
     "date": "02/13/26 05:30 PM EST",
+    "school_1": "EAST HALL HS",
+    "school_2": "MONROE AREA HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 05:30 PM EST",
     "school_1": "D H CONLEY HS",
     "school_2": "JUNIUS H ROSE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 06:00 PM EST",
+    "school_1": "EAST JESSAMINE HS",
+    "school_2": "WEST JESSAMINE HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2667,6 +2091,18 @@
   },
   {
     "date": "02/13/26 07:00 PM EST",
+    "school_1": "MILFORD HS",
+    "school_2": "WYLIE E. GROVES HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 07:00 PM EST",
     "school_1": "DEARBORN MAGNET HS",
     "school_2": "BELLEVILLE HS",
     "recruits_2027": [],
@@ -2679,8 +2115,68 @@
   },
   {
     "date": "02/13/26 07:00 PM EST",
+    "school_1": "FAYETTEVILLE HS",
+    "school_2": "ROGERS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 07:00 PM EST",
     "school_1": "BEAVERTON HS",
     "school_2": "SHEPHERD HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 07:30 PM EST",
+    "school_1": "STALEY HS",
+    "school_2": "LIBERTY NORTH HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 07:30 PM EST",
+    "school_1": "PICKERINGTON HS CENTRAL",
+    "school_2": "TEAYS VALLEY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 07:30 PM EST",
+    "school_1": "STALEY HS",
+    "school_2": "LIBERAL HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/13/26 08:00 PM EST",
+    "school_1": "WINDSOR HS",
+    "school_2": "FORT COLLINS HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2705,6 +2201,18 @@
     "date": "02/14/26 12:00 PM EST",
     "school_1": "URSULINE ACADEMY (PK-12)",
     "school_2": "St. Elizabeth High School",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/14/26 02:30 PM EST",
+    "school_1": "BISHOP DENIS J O'CONNELL HS",
+    "school_2": "CATHOLIC HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2774,9 +2282,45 @@
     "total_tracked": 0
   },
   {
+    "date": "02/16/26 07:30 PM EST",
+    "school_1": "EVANGEL CHRISTIAN ACADEMY",
+    "school_2": "CORONADO HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/16/26 08:00 PM EST",
+    "school_1": "BLUE SPRINGS HS",
+    "school_2": "STALEY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/16/26 08:15 PM EST",
     "school_1": "STEVENS POINT AREA HS",
     "school_2": "EMMAUS EV LUTHERAN SCHOOL",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/16/26 11:59 PM EST",
+    "school_1": "CATHOLIC HS",
+    "school_2": "TBD",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2811,8 +2355,56 @@
   },
   {
     "date": "02/17/26 07:00 PM EST",
+    "school_1": "WYLIE E. GROVES HS",
+    "school_2": "WEST BLOOMFIELD HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/17/26 07:00 PM EST",
     "school_1": "CHURCHILL HS",
     "school_2": "BELLEVILLE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/17/26 07:30 PM EST",
+    "school_1": "WEST JESSAMINE HS",
+    "school_2": "WESTERN HILLS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/17/26 08:00 PM EST",
+    "school_1": "ROCKY MOUNTAIN HS",
+    "school_2": "WINDSOR HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/17/26 08:00 PM EST",
+    "school_1": "BENTON HS",
+    "school_2": "FAYETTEVILLE HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2846,9 +2438,45 @@
     "total_tracked": 0
   },
   {
+    "date": "02/19/26 07:00 PM EST",
+    "school_1": "PINE HILL SCHOOLS",
+    "school_2": "CORONADO HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/19/26 08:00 PM EST",
+    "school_1": "STALEY HS",
+    "school_2": "BLUE SPRINGS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/19/26 08:15 PM EST",
     "school_1": "NECEDAH HS",
     "school_2": "KIMBERLY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 05:00 PM EST",
+    "school_1": "AUSTIN PREPARATORY SCHOOL",
+    "school_2": "WORCESTER ACADEMY",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2907,8 +2535,68 @@
   },
   {
     "date": "02/20/26 07:00 PM EST",
+    "school_1": "BERKLEY HS",
+    "school_2": "WYLIE E. GROVES HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 07:00 PM EST",
     "school_1": "OTTAWA SR HS",
     "school_2": "BALDWIN HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 07:00 PM EST",
+    "school_1": "FAYETTEVILLE HS",
+    "school_2": "SPRINGDALE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 07:30 PM EST",
+    "school_1": "WEST JESSAMINE HS",
+    "school_2": "ANDERSON COUNTY HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 07:30 PM EST",
+    "school_1": "RANDALL K. COOPER HS",
+    "school_2": "ASSUMPTION HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/20/26 08:00 PM EST",
+    "school_1": "WINDSOR HS",
+    "school_2": "LOVELAND HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2930,9 +2618,33 @@
     "total_tracked": 0
   },
   {
+    "date": "02/21/26 01:00 PM EST",
+    "school_1": "CAMDEN CATHOLIC HS",
+    "school_2": "LENAPE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/21/26 03:00 PM EST",
     "school_1": "STEVENS POINT AREA HS",
     "school_2": "OOSTBURG HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/21/26 01:00 PM EST",
+    "school_1": "CAMDEN CATHOLIC HS",
+    "school_2": "LENAPE HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -2966,6 +2678,42 @@
     "total_tracked": 0
   },
   {
+    "date": "02/23/26 08:00 PM EST",
+    "school_1": "STALEY HS",
+    "school_2": "SUMMIT CHRISTIAN ACADEMY",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/23/26 08:00 PM EST",
+    "school_1": "STALEY HS",
+    "school_2": "LEE'S SUMMIT WEST HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/24/26 07:00 PM EST",
+    "school_1": "WYLIE E. GROVES HS",
+    "school_2": "BLOOMFIELD HILLS HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/24/26 07:00 PM EST",
     "school_1": "TONGANOXIE HS",
     "school_2": "OTTAWA SR HS",
@@ -2990,9 +2738,33 @@
     "total_tracked": 0
   },
   {
+    "date": "02/24/26 11:59 PM EST",
+    "school_1": "PROVIDENCE DAY SCHOOL",
+    "school_2": "TBD",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/26/26 07:00 PM EST",
     "school_1": "DETROIT COUNTRY DAY",
     "school_2": "RIVER ROUGE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/26/26 08:00 PM EST",
+    "school_1": "SUMMIT CHRISTIAN ACADEMY",
+    "school_2": "STALEY HS",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
@@ -3014,9 +2786,33 @@
     "total_tracked": 0
   },
   {
+    "date": "02/27/26 07:00 PM EST",
+    "school_1": "BENTON HS",
+    "school_2": "FAYETTEVILLE HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
     "date": "02/28/26 03:00 PM EST",
     "school_1": "LUMEN CHRISTI CATHOLIC HS",
     "school_2": "BEAVERTON HS",
+    "recruits_2027": [],
+    "color_counts": {
+      "Navy": 0,
+      "Columbia Blue": 0,
+      "Anthracite": 0
+    },
+    "total_tracked": 0
+  },
+  {
+    "date": "02/28/26 07:00 PM EST",
+    "school_1": "THE IMG ACADEMY SCHOOL (DEVELOPMENTAL)",
+    "school_2": "DME ACADEMY",
     "recruits_2027": [],
     "color_counts": {
       "Navy": 0,
